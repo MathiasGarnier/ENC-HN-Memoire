@@ -1,0 +1,4697 @@
+[
+  {
+    "verse_id": 1,
+    "original": "﻿cil qui fit d’erec et d’enide",
+    "lemmatized": [
+      {
+        "form": "﻿",
+        "lemma": "﻿",
+        "POS": "PONfbl",
+        "morph": "MORPH=empty",
+        "treated": "﻿"
+      },
+      {
+        "form": "cil",
+        "lemma": "cel",
+        "POS": "PROdem",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "cil"
+      },
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "fit",
+        "lemma": "faire",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fit"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "erec",
+        "lemma": "Erec",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "erec"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "enide",
+        "lemma": "Enide",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "enide"
+      }
+    ]
+  },
+  {
+    "verse_id": 2,
+    "original": "e les comandemanz d’ovide",
+    "lemmatized": [
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "les",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=p|GENRE=m|CAS=n",
+        "treated": "les"
+      },
+      {
+        "form": "comandemanz",
+        "lemma": "comandement",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "comandemanz"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "ovide",
+        "lemma": "Ovide",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "ovide"
+      }
+    ]
+  },
+  {
+    "verse_id": 3,
+    "original": "e l’art d’amors an romans mist",
+    "lemmatized": [
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "art",
+        "lemma": "art",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "art"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "amors",
+        "lemma": "amor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "amors"
+      },
+      {
+        "form": "an",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "an"
+      },
+      {
+        "form": "romans",
+        "lemma": "romanz",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "romans"
+      },
+      {
+        "form": "mist",
+        "lemma": "metre2",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "mist"
+      }
+    ]
+  },
+  {
+    "verse_id": 4,
+    "original": "e les mors de l’espaule fist",
+    "lemmatized": [
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "les",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "les"
+      },
+      {
+        "form": "mors",
+        "lemma": "mort2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "mors"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "espaule",
+        "lemma": "espaule",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "espaule"
+      },
+      {
+        "form": "fist",
+        "lemma": "faire",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fist"
+      }
+    ]
+  },
+  {
+    "verse_id": 5,
+    "original": "dou roi marc e d’isent la blonde",
+    "lemmatized": [
+      {
+        "form": "dou",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "dou"
+      },
+      {
+        "form": "roi",
+        "lemma": "roi2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "roi"
+      },
+      {
+        "form": "marc",
+        "lemma": "Marc",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "marc"
+      },
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "isent",
+        "lemma": "issir",
+        "POS": "NOMpro",
+        "morph": "TEMPS=pst|PERS.=3|NOMB.=p",
+        "treated": "isent"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "la"
+      },
+      {
+        "form": "blonde",
+        "lemma": "blont",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "blonde"
+      }
+    ]
+  },
+  {
+    "verse_id": 6,
+    "original": "de la’upe e de l’aronde",
+    "lemmatized": [
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "la’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "la"
+      },
+      {
+        "form": "upe",
+        "lemma": "huce",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "upe"
+      },
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "aronde",
+        "lemma": "aronde",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "aronde"
+      }
+    ]
+  },
+  {
+    "verse_id": 7,
+    "original": "et dou roissinol la muance",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "dou",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "dou"
+      },
+      {
+        "form": "roissinol",
+        "lemma": "rosillier",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "roissinol"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "la"
+      },
+      {
+        "form": "muance",
+        "lemma": "müance",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "muance"
+      }
+    ]
+  },
+  {
+    "verse_id": 8,
+    "original": "u novel conte recomance",
+    "lemmatized": [
+      {
+        "form": "u",
+        "lemma": "o3",
+        "POS": "CONcoo",
+        "morph": "GENRE=m",
+        "treated": "u"
+      },
+      {
+        "form": "novel",
+        "lemma": "novel",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "novel"
+      },
+      {
+        "form": "conte",
+        "lemma": "conte2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "conte"
+      },
+      {
+        "form": "recomance",
+        "lemma": "recomencier",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|PERS.=3|NOMB.=s",
+        "treated": "recomance"
+      }
+    ]
+  },
+  {
+    "verse_id": 9,
+    "original": "d’un vallet qui en grece fu",
+    "lemmatized": [
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "un",
+        "lemma": "un",
+        "POS": "DETndf",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "un"
+      },
+      {
+        "form": "vallet",
+        "lemma": "vaslet",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "vallet"
+      },
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "en",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "grece",
+        "lemma": "Grece",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "grece"
+      },
+      {
+        "form": "fu",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fu"
+      }
+    ]
+  },
+  {
+    "verse_id": 10,
+    "original": "dou lignaige le roi artu",
+    "lemmatized": [
+      {
+        "form": "dou",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "dou"
+      },
+      {
+        "form": "lignaige",
+        "lemma": "lignage",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "lignaige"
+      },
+      {
+        "form": "le",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "le"
+      },
+      {
+        "form": "roi",
+        "lemma": "roi2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "roi"
+      },
+      {
+        "form": "artu",
+        "lemma": "Artu",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "artu"
+      }
+    ]
+  },
+  {
+    "verse_id": 11,
+    "original": "mes einz que mille rien vos die",
+    "lemmatized": [
+      {
+        "form": "mes",
+        "lemma": "mais1",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "mes"
+      },
+      {
+        "form": "einz",
+        "lemma": "ainz",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "einz"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "mille",
+        "lemma": "mil1",
+        "POS": "PROcar",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "mille"
+      },
+      {
+        "form": "rien",
+        "lemma": "rien",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "rien"
+      },
+      {
+        "form": "vos",
+        "lemma": "vos",
+        "POS": "PROper",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=i",
+        "treated": "vos"
+      },
+      {
+        "form": "die",
+        "lemma": "dire",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=1|NOMB.=s",
+        "treated": "die"
+      }
+    ]
+  },
+  {
+    "verse_id": 12,
+    "original": "orroiz de son pere la vie",
+    "lemmatized": [
+      {
+        "form": "orroiz",
+        "lemma": "öir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=fut|PERS.=2|NOMB.=p",
+        "treated": "orroiz"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "son",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "son"
+      },
+      {
+        "form": "pere",
+        "lemma": "pere",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "pere"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "la"
+      },
+      {
+        "form": "vie",
+        "lemma": "vie1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "vie"
+      }
+    ]
+  },
+  {
+    "verse_id": 13,
+    "original": "dom il fu e de quel lignage",
+    "lemmatized": [
+      {
+        "form": "dom",
+        "lemma": "dont",
+        "POS": "PROrel",
+        "morph": "MORPH=empty",
+        "treated": "dom"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "fu",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fu"
+      },
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "quel",
+        "lemma": "quel1",
+        "POS": "DETrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "quel"
+      },
+      {
+        "form": "lignage",
+        "lemma": "lignage",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "lignage"
+      }
+    ]
+  },
+  {
+    "verse_id": 14,
+    "original": "tant fu preuz et de fier corage",
+    "lemmatized": [
+      {
+        "form": "tant",
+        "lemma": "tant",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "tant"
+      },
+      {
+        "form": "fu",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fu"
+      },
+      {
+        "form": "preuz",
+        "lemma": "pro",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "preuz"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "fier",
+        "lemma": "fier",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "fier"
+      },
+      {
+        "form": "corage",
+        "lemma": "corage",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "corage"
+      }
+    ]
+  },
+  {
+    "verse_id": 15,
+    "original": "que ne por pris et por los conquerre",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne2",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "por",
+        "lemma": "por2",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "por"
+      },
+      {
+        "form": "pris",
+        "lemma": "pris1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "pris"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "por",
+        "lemma": "por2",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "por"
+      },
+      {
+        "form": "los",
+        "lemma": "los1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "los"
+      },
+      {
+        "form": "conquerre",
+        "lemma": "conquerre",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "conquerre"
+      }
+    ]
+  },
+  {
+    "verse_id": 16,
+    "original": "a la de grece en engleterre",
+    "lemmatized": [
+      {
+        "form": "a",
+        "lemma": "avoir",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "a"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|CAS=r|DEGRE=-",
+        "treated": "la"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "grece",
+        "lemma": "Grece",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "grece"
+      },
+      {
+        "form": "en",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "engleterre",
+        "lemma": "Engleterre",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "engleterre"
+      }
+    ]
+  },
+  {
+    "verse_id": 17,
+    "original": "qui lors estoit bretaigne dite",
+    "lemmatized": [
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "lors",
+        "lemma": "lors",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "lors"
+      },
+      {
+        "form": "estoit",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "estoit"
+      },
+      {
+        "form": "bretaigne",
+        "lemma": "Bretaigne",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=n|DEGRE=p",
+        "treated": "bretaigne"
+      },
+      {
+        "form": "dite",
+        "lemma": "dire",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "dite"
+      }
+    ]
+  },
+  {
+    "verse_id": 18,
+    "original": "ceste estoire trovons escrite",
+    "lemmatized": [
+      {
+        "form": "ceste",
+        "lemma": "cest",
+        "POS": "DETdem",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "ceste"
+      },
+      {
+        "form": "estoire",
+        "lemma": "estoire1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "estoire"
+      },
+      {
+        "form": "trovons",
+        "lemma": "trover",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=p",
+        "treated": "trovons"
+      },
+      {
+        "form": "escrite",
+        "lemma": "escrire",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "escrite"
+      }
+    ]
+  },
+  {
+    "verse_id": 19,
+    "original": "que conter vos vuel et retraire",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que3",
+        "POS": "PROrel",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "conter",
+        "lemma": "conter",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "conter"
+      },
+      {
+        "form": "vos",
+        "lemma": "vos",
+        "POS": "PROper",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=r",
+        "treated": "vos"
+      },
+      {
+        "form": "vuel",
+        "lemma": "voloir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s",
+        "treated": "vuel"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "retraire",
+        "lemma": "retraire",
+        "POS": "VERinf",
+        "morph": "TEMPS=pst",
+        "treated": "retraire"
+      }
+    ]
+  },
+  {
+    "verse_id": 20,
+    "original": "en un des livres de l’amaire",
+    "lemmatized": [
+      {
+        "form": "en",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "un",
+        "lemma": "un",
+        "POS": "PROind",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "un"
+      },
+      {
+        "form": "des",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=p|GENRE=f|CAS=r",
+        "treated": "des"
+      },
+      {
+        "form": "livres",
+        "lemma": "livre3",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=f|CAS=r",
+        "treated": "livres"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "amaire",
+        "lemma": "amer1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "amaire"
+      }
+    ]
+  },
+  {
+    "verse_id": 21,
+    "original": "monseignor saint pere a biauves",
+    "lemmatized": [
+      {
+        "form": "monseignor",
+        "lemma": "seignor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "monseignor"
+      },
+      {
+        "form": "saint",
+        "lemma": "saint",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "saint"
+      },
+      {
+        "form": "pere",
+        "lemma": "pere",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "pere"
+      },
+      {
+        "form": "a",
+        "lemma": "a3",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "a"
+      },
+      {
+        "form": "biauves",
+        "lemma": "bel1",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "biauves"
+      }
+    ]
+  },
+  {
+    "verse_id": 22,
+    "original": "de la fu cist luwes verraiz",
+    "lemmatized": [
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "la",
+        "lemma": "là",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "la"
+      },
+      {
+        "form": "fu",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fu"
+      },
+      {
+        "form": "cist",
+        "lemma": "cest",
+        "POS": "DETdem",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "cist"
+      },
+      {
+        "form": "luwes",
+        "lemma": "luce",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "luwes"
+      },
+      {
+        "form": "verraiz",
+        "lemma": "verai",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "verraiz"
+      }
+    ]
+  },
+  {
+    "verse_id": 23,
+    "original": "dont cest romanz fist crestians",
+    "lemmatized": [
+      {
+        "form": "dont",
+        "lemma": "dont",
+        "POS": "PROrel",
+        "morph": "DEGRE=-",
+        "treated": "dont"
+      },
+      {
+        "form": "cest",
+        "lemma": "cest",
+        "POS": "DETdem",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "cest"
+      },
+      {
+        "form": "romanz",
+        "lemma": "romanz",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "romanz"
+      },
+      {
+        "form": "fist",
+        "lemma": "faire",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fist"
+      },
+      {
+        "form": "crestians",
+        "lemma": "crestiien",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "crestians"
+      }
+    ]
+  },
+  {
+    "verse_id": 24,
+    "original": "Li livres est mult anciens",
+    "lemmatized": [
+      {
+        "form": "Li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "Li"
+      },
+      {
+        "form": "livres",
+        "lemma": "livre2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "livres"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "mult",
+        "lemma": "mout",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "mult"
+      },
+      {
+        "form": "anciens",
+        "lemma": "anciien",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "anciens"
+      }
+    ]
+  },
+  {
+    "verse_id": 25,
+    "original": "qui tes tesmaigne l’estoire a voire",
+    "lemmatized": [
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "tes",
+        "lemma": "ton4",
+        "POS": "ADVgen.PROper",
+        "morph": "PERS.=2|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "tes"
+      },
+      {
+        "form": "tesmaigne",
+        "lemma": "tesmoignier",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "tesmaigne"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "estoire",
+        "lemma": "estoire1",
+        "POS": "NOMcom",
+        "morph": "MODE=ind|TEMPS=pst|NOMB.=s|GENRE=f|CAS=r",
+        "treated": "estoire"
+      },
+      {
+        "form": "a",
+        "lemma": "avoir",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "a"
+      },
+      {
+        "form": "voire",
+        "lemma": "voir",
+        "POS": "ADJqua",
+        "morph": "GENRE=m|DEGRE=-",
+        "treated": "voire"
+      }
+    ]
+  },
+  {
+    "verse_id": 26,
+    "original": "por ce sistit meulz a croire",
+    "lemmatized": [
+      {
+        "form": "por",
+        "lemma": "por2",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "por"
+      },
+      {
+        "form": "ce",
+        "lemma": "ce1",
+        "POS": "PROdem",
+        "morph": "NOMB.=s|GENRE=n|CAS=r",
+        "treated": "ce"
+      },
+      {
+        "form": "sistit",
+        "lemma": "sëoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|PERS.=3|NOMB.=s",
+        "treated": "sistit"
+      },
+      {
+        "form": "meulz",
+        "lemma": "mieus",
+        "POS": "ADVgen",
+        "morph": "NOMB.=s|DEGRE=c",
+        "treated": "meulz"
+      },
+      {
+        "form": "a",
+        "lemma": "a3",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "a"
+      },
+      {
+        "form": "croire",
+        "lemma": "croire",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "croire"
+      }
+    ]
+  },
+  {
+    "verse_id": 27,
+    "original": "par les livres que nos avons",
+    "lemmatized": [
+      {
+        "form": "par",
+        "lemma": "par",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "par"
+      },
+      {
+        "form": "les",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=p|GENRE=f|CAS=r",
+        "treated": "les"
+      },
+      {
+        "form": "livres",
+        "lemma": "livre2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=f|CAS=r",
+        "treated": "livres"
+      },
+      {
+        "form": "que",
+        "lemma": "que2",
+        "POS": "PROrel",
+        "morph": "NOMB.=p|GENRE=f|CAS=r",
+        "treated": "que"
+      },
+      {
+        "form": "nos",
+        "lemma": "nos1",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=p|GENRE=m|CAS=n",
+        "treated": "nos"
+      },
+      {
+        "form": "avons",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=p",
+        "treated": "avons"
+      }
+    ]
+  },
+  {
+    "verse_id": 28,
+    "original": "les faiz as anciens savons",
+    "lemmatized": [
+      {
+        "form": "les",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "les"
+      },
+      {
+        "form": "faiz",
+        "lemma": "fait1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "faiz"
+      },
+      {
+        "form": "as",
+        "lemma": "a3+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "as"
+      },
+      {
+        "form": "anciens",
+        "lemma": "anciien",
+        "POS": "ADJqua",
+        "morph": "NOMB.=p|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "anciens"
+      },
+      {
+        "form": "savons",
+        "lemma": "savoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=p",
+        "treated": "savons"
+      }
+    ]
+  },
+  {
+    "verse_id": 29,
+    "original": "et d’une siegle qui fu jadis",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "une",
+        "lemma": "un",
+        "POS": "DETndf",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "une"
+      },
+      {
+        "form": "siegle",
+        "lemma": "siecle",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "siegle"
+      },
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "fu",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fu"
+      },
+      {
+        "form": "jadis",
+        "lemma": "jadis",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "jadis"
+      }
+    ]
+  },
+  {
+    "verse_id": 30,
+    "original": "ce nos ont nos livres apriz",
+    "lemmatized": [
+      {
+        "form": "ce",
+        "lemma": "ce1",
+        "POS": "PROdem",
+        "morph": "NOMB.=s|GENRE=n|CAS=r",
+        "treated": "ce"
+      },
+      {
+        "form": "nos",
+        "lemma": "nos1",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=p|GENRE=m|CAS=i",
+        "treated": "nos"
+      },
+      {
+        "form": "ont",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=p",
+        "treated": "ont"
+      },
+      {
+        "form": "nos",
+        "lemma": "nostre",
+        "POS": "DETpos",
+        "morph": "PERS.=1|NOMB.=p|GENRE=f|CAS=r",
+        "treated": "nos"
+      },
+      {
+        "form": "livres",
+        "lemma": "livre2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=f|CAS=r",
+        "treated": "livres"
+      },
+      {
+        "form": "apriz",
+        "lemma": "aprendre",
+        "POS": "VERppe",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "apriz"
+      }
+    ]
+  },
+  {
+    "verse_id": 31,
+    "original": "que grece ot de chevalerie",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "PROrel",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "grece",
+        "lemma": "Grece",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "grece"
+      },
+      {
+        "form": "ot",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "ot"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "chevalerie",
+        "lemma": "chevalerie",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "chevalerie"
+      }
+    ]
+  },
+  {
+    "verse_id": 32,
+    "original": "le premier los et de clergie",
+    "lemmatized": [
+      {
+        "form": "le",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "le"
+      },
+      {
+        "form": "premier",
+        "lemma": "premier",
+        "POS": "ADJord",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "premier"
+      },
+      {
+        "form": "los",
+        "lemma": "los1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "los"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "clergie",
+        "lemma": "clergie",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "clergie"
+      }
+    ]
+  },
+  {
+    "verse_id": 33,
+    "original": "puis vint chevalerie a rome",
+    "lemmatized": [
+      {
+        "form": "puis",
+        "lemma": "puis",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "puis"
+      },
+      {
+        "form": "vint",
+        "lemma": "venir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "vint"
+      },
+      {
+        "form": "chevalerie",
+        "lemma": "chevalerie",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "chevalerie"
+      },
+      {
+        "form": "a",
+        "lemma": "a3",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "a"
+      },
+      {
+        "form": "rome",
+        "lemma": "Rome",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "rome"
+      }
+    ]
+  },
+  {
+    "verse_id": 34,
+    "original": "et la de clegie la some",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "la"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "clegie",
+        "lemma": "clergié",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "clegie"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "la"
+      },
+      {
+        "form": "some",
+        "lemma": "some3",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "some"
+      }
+    ]
+  },
+  {
+    "verse_id": 35,
+    "original": "qui or est an france venue",
+    "lemmatized": [
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "or",
+        "lemma": "or4",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "or"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "an",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "an"
+      },
+      {
+        "form": "france",
+        "lemma": "France",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "france"
+      },
+      {
+        "form": "venue",
+        "lemma": "venir",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "venue"
+      }
+    ]
+  },
+  {
+    "verse_id": 36,
+    "original": "dex doint qu’ele i soyt retenue",
+    "lemmatized": [
+      {
+        "form": "dex",
+        "lemma": "Dieu",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "dex"
+      },
+      {
+        "form": "doint",
+        "lemma": "doner",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "doint"
+      },
+      {
+        "form": "qu’",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "GENRE=n",
+        "treated": "qu"
+      },
+      {
+        "form": "ele",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=f|CAS=n",
+        "treated": "ele"
+      },
+      {
+        "form": "i",
+        "lemma": "i2",
+        "POS": "PROadv",
+        "morph": "MORPH=empty",
+        "treated": "i"
+      },
+      {
+        "form": "soyt",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "soyt"
+      },
+      {
+        "form": "retenue",
+        "lemma": "retenir",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "retenue"
+      }
+    ]
+  },
+  {
+    "verse_id": 37,
+    "original": "et que li leus li abelisse",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "leus",
+        "lemma": "lieu",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "leus"
+      },
+      {
+        "form": "li",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "abelisse",
+        "lemma": "abel1ir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "abelisse"
+      }
+    ]
+  },
+  {
+    "verse_id": 38,
+    "original": "tant que ja de france ne n’isse",
+    "lemmatized": [
+      {
+        "form": "tant",
+        "lemma": "tant",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "tant"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "ja",
+        "lemma": "ja",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "ja"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "france",
+        "lemma": "France",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "france"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne1",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "n’",
+        "lemma": "ne1",
+        "POS": "ADVneg",
+        "morph": "MORPH=empty",
+        "treated": "n"
+      },
+      {
+        "form": "isse",
+        "lemma": "issir",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "isse"
+      }
+    ]
+  },
+  {
+    "verse_id": 39,
+    "original": "lono qui s’i est arestee",
+    "lemmatized": [
+      {
+        "form": "lono",
+        "lemma": "lonc",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "lono"
+      },
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "s’",
+        "lemma": "soi1",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "s"
+      },
+      {
+        "form": "i",
+        "lemma": "i2",
+        "POS": "PROadv",
+        "morph": "MORPH=empty",
+        "treated": "i"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "arestee",
+        "lemma": "arester",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "arestee"
+      }
+    ]
+  },
+  {
+    "verse_id": 40,
+    "original": "dont ele est prisee et doree",
+    "lemmatized": [
+      {
+        "form": "dont",
+        "lemma": "dont",
+        "POS": "PROrel",
+        "morph": "MORPH=empty",
+        "treated": "dont"
+      },
+      {
+        "form": "ele",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=f|CAS=n",
+        "treated": "ele"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "prisee",
+        "lemma": "prisier",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n|DEGRE=p",
+        "treated": "prisee"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "doree",
+        "lemma": "dorer",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "doree"
+      }
+    ]
+  },
+  {
+    "verse_id": 41,
+    "original": "or es des grecois et des romains",
+    "lemmatized": [
+      {
+        "form": "or",
+        "lemma": "or4",
+        "POS": "ADVgen",
+        "morph": "MORPH=empty",
+        "treated": "or"
+      },
+      {
+        "form": "es",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|PERS.=2|NOMB.=s",
+        "treated": "es"
+      },
+      {
+        "form": "des",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "des"
+      },
+      {
+        "form": "grecois",
+        "lemma": "grec",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "grecois"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "des",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "des"
+      },
+      {
+        "form": "romains",
+        "lemma": "romain",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "romains"
+      }
+    ]
+  },
+  {
+    "verse_id": 42,
+    "original": "ne voi dire ne plus ne mainz",
+    "lemmatized": [
+      {
+        "form": "ne",
+        "lemma": "ne1",
+        "POS": "ADVneg",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "voi",
+        "lemma": "vëoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s",
+        "treated": "voi"
+      },
+      {
+        "form": "dire",
+        "lemma": "dire",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "dire"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne2",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "plus",
+        "lemma": "plus",
+        "POS": "ADVgen",
+        "morph": "DEGRE=c",
+        "treated": "plus"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne2",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "mainz",
+        "lemma": "maint",
+        "POS": "DETind",
+        "morph": "NOMB.=p|DEGRE=c",
+        "treated": "mainz"
+      }
+    ]
+  },
+  {
+    "verse_id": 43,
+    "original": "deus est li parole remesse",
+    "lemmatized": [
+      {
+        "form": "deus",
+        "lemma": "deus",
+        "POS": "PROcar",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "deus"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "parole",
+        "lemma": "parole",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "parole"
+      },
+      {
+        "form": "remesse",
+        "lemma": "remanoir",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "remesse"
+      }
+    ]
+  },
+  {
+    "verse_id": 44,
+    "original": "et stainte en est la vive brese",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "stainte",
+        "lemma": "seignor",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=f|CAS=n|DEGRE=p",
+        "treated": "stainte"
+      },
+      {
+        "form": "en",
+        "lemma": "en2",
+        "POS": "PROadv",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "la"
+      },
+      {
+        "form": "vive",
+        "lemma": "vif",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=f|CAS=n|DEGRE=p",
+        "treated": "vive"
+      },
+      {
+        "form": "brese",
+        "lemma": "brese",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "brese"
+      }
+    ]
+  },
+  {
+    "verse_id": 45,
+    "original": "crestiens comence son conte",
+    "lemmatized": [
+      {
+        "form": "crestiens",
+        "lemma": "crestiien",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=n",
+        "treated": "crestiens"
+      },
+      {
+        "form": "comence",
+        "lemma": "comencier",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "comence"
+      },
+      {
+        "form": "son",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "son"
+      },
+      {
+        "form": "conte",
+        "lemma": "conte2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "conte"
+      }
+    ]
+  },
+  {
+    "verse_id": 46,
+    "original": "si come l’estoire nos reconte",
+    "lemmatized": [
+      {
+        "form": "si",
+        "lemma": "si",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "si"
+      },
+      {
+        "form": "come",
+        "lemma": "come1",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "come"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "l"
+      },
+      {
+        "form": "estoire",
+        "lemma": "estoire1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "estoire"
+      },
+      {
+        "form": "nos",
+        "lemma": "nos1",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=p|GENRE=m|CAS=i",
+        "treated": "nos"
+      },
+      {
+        "form": "reconte",
+        "lemma": "reconter",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "reconte"
+      }
+    ]
+  },
+  {
+    "verse_id": 47,
+    "original": "qui trere dont empereor",
+    "lemmatized": [
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "trere",
+        "lemma": "traire",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "trere"
+      },
+      {
+        "form": "dont",
+        "lemma": "dont",
+        "POS": "PROrel",
+        "morph": "NOMB.=s",
+        "treated": "dont"
+      },
+      {
+        "form": "empereor",
+        "lemma": "emperëor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "empereor"
+      }
+    ]
+  },
+  {
+    "verse_id": 48,
+    "original": "puissant de richesce et d’enor",
+    "lemmatized": [
+      {
+        "form": "puissant",
+        "lemma": "poissant",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "puissant"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "richesce",
+        "lemma": "richece",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "richesce"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "enor",
+        "lemma": "onor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "enor"
+      }
+    ]
+  },
+  {
+    "verse_id": 49,
+    "original": "qui tint grece et costantinoble",
+    "lemmatized": [
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "tint",
+        "lemma": "tenir1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "tint"
+      },
+      {
+        "form": "grece",
+        "lemma": "Grece",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "grece"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "costantinoble",
+        "lemma": "costenance",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "costantinoble"
+      }
+    ]
+  },
+  {
+    "verse_id": 50,
+    "original": "empereriz i ot multu noble",
+    "lemmatized": [
+      {
+        "form": "empereriz",
+        "lemma": "empererriz",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "empereriz"
+      },
+      {
+        "form": "i",
+        "lemma": "i2",
+        "POS": "PROadv",
+        "morph": "MORPH=empty",
+        "treated": "i"
+      },
+      {
+        "form": "ot",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "ot"
+      },
+      {
+        "form": "multu",
+        "lemma": "mout",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "multu"
+      },
+      {
+        "form": "noble",
+        "lemma": "noble1",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "noble"
+      }
+    ]
+  },
+  {
+    "verse_id": 51,
+    "original": "don l’amperere ot deux enfanz",
+    "lemmatized": [
+      {
+        "form": "don",
+        "lemma": "dont",
+        "POS": "PROrel",
+        "morph": "MORPH=empty",
+        "treated": "don"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "l"
+      },
+      {
+        "form": "amperere",
+        "lemma": "emperëor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "amperere"
+      },
+      {
+        "form": "ot",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "ot"
+      },
+      {
+        "form": "deux",
+        "lemma": "deus",
+        "POS": "DETcar",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "deux"
+      },
+      {
+        "form": "enfanz",
+        "lemma": "enfant",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "enfanz"
+      }
+    ]
+  },
+  {
+    "verse_id": 52,
+    "original": "mes einz fu li premiers si granz",
+    "lemmatized": [
+      {
+        "form": "mes",
+        "lemma": "mais1",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "mes"
+      },
+      {
+        "form": "einz",
+        "lemma": "ainz",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "einz"
+      },
+      {
+        "form": "fu",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fu"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "premiers",
+        "lemma": "premier",
+        "POS": "PROord",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "premiers"
+      },
+      {
+        "form": "si",
+        "lemma": "si",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "si"
+      },
+      {
+        "form": "granz",
+        "lemma": "grant",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "granz"
+      }
+    ]
+  },
+  {
+    "verse_id": 53,
+    "original": "que li autres nesance ust",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "autres",
+        "lemma": "autre",
+        "POS": "ADJind",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "autres"
+      },
+      {
+        "form": "nesance",
+        "lemma": "naissance",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "nesance"
+      },
+      {
+        "form": "ust",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "ust"
+      }
+    ]
+  },
+  {
+    "verse_id": 54,
+    "original": "que li premier se li pleüst",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "premier",
+        "lemma": "premier",
+        "POS": "PROord",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "premier"
+      },
+      {
+        "form": "se",
+        "lemma": "soi1",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "se"
+      },
+      {
+        "form": "li",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "li"
+      },
+      {
+        "form": "pleüst",
+        "lemma": "plaire",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "pleüst"
+      }
+    ]
+  },
+  {
+    "verse_id": 55,
+    "original": "poïst chevaliers devenir",
+    "lemmatized": [
+      {
+        "form": "poïst",
+        "lemma": "pöoir",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "poïst"
+      },
+      {
+        "form": "chevaliers",
+        "lemma": "chevalier",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "chevaliers"
+      },
+      {
+        "form": "devenir",
+        "lemma": "devenir",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "devenir"
+      }
+    ]
+  },
+  {
+    "verse_id": 56,
+    "original": "et tot l’eroiaume maintenir",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "tot",
+        "lemma": "tot",
+        "POS": "DETind",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "tot"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "eroiaume",
+        "lemma": "roiaume",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "eroiaume"
+      },
+      {
+        "form": "maintenir",
+        "lemma": "maintenir",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "maintenir"
+      }
+    ]
+  },
+  {
+    "verse_id": 57,
+    "original": "li premiers ot li pere",
+    "lemmatized": [
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "premiers",
+        "lemma": "premier",
+        "POS": "PROord",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "premiers"
+      },
+      {
+        "form": "ot",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "ot"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "pere",
+        "lemma": "pere",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "pere"
+      }
+    ]
+  },
+  {
+    "verse_id": 58,
+    "original": "eucantalis ot non la mere",
+    "lemmatized": [
+      {
+        "form": "eucantalis",
+        "lemma": "autantil",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "eucantalis"
+      },
+      {
+        "form": "ot",
+        "lemma": "avoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "ot"
+      },
+      {
+        "form": "non",
+        "lemma": "nom",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s",
+        "treated": "non"
+      },
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "la"
+      },
+      {
+        "form": "mere",
+        "lemma": "mere",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "mere"
+      }
+    ]
+  },
+  {
+    "verse_id": 59,
+    "original": "de l’empereris cantalis",
+    "lemmatized": [
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "empereris",
+        "lemma": "emperëor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "empereris"
+      },
+      {
+        "form": "cantalis",
+        "lemma": "chantel",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "cantalis"
+      }
+    ]
+  },
+  {
+    "verse_id": 60,
+    "original": "et de l’empereor d’alis",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "de",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "de"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "empereor",
+        "lemma": "emperëor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "empereor"
+      },
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "alis",
+        "lemma": "Alis",
+        "POS": "NOMpro",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "alis"
+      }
+    ]
+  },
+  {
+    "verse_id": 61,
+    "original": "la parole vant finerai",
+    "lemmatized": [
+      {
+        "form": "la",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "la"
+      },
+      {
+        "form": "parole",
+        "lemma": "parole",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "parole"
+      },
+      {
+        "form": "vant",
+        "lemma": "vendre",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s",
+        "treated": "vant"
+      },
+      {
+        "form": "finerai",
+        "lemma": "finer",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=fut|PERS.=1|NOMB.=s",
+        "treated": "finerai"
+      }
+    ]
+  },
+  {
+    "verse_id": 62,
+    "original": "d’alixandre vos parlerai",
+    "lemmatized": [
+      {
+        "form": "d’",
+        "lemma": "de",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "d"
+      },
+      {
+        "form": "alixandre",
+        "lemma": "Alixandre",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "alixandre"
+      },
+      {
+        "form": "vos",
+        "lemma": "vos",
+        "POS": "PROper",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=i",
+        "treated": "vos"
+      },
+      {
+        "form": "parlerai",
+        "lemma": "parler",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=fut|PERS.=1|NOMB.=s",
+        "treated": "parlerai"
+      }
+    ]
+  },
+  {
+    "verse_id": 63,
+    "original": "qui tant fu corageus et fiers",
+    "lemmatized": [
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "tant",
+        "lemma": "tant",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "tant"
+      },
+      {
+        "form": "fu",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fu"
+      },
+      {
+        "form": "corageus",
+        "lemma": "corajos",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "corageus"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "fiers",
+        "lemma": "fier",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "fiers"
+      }
+    ]
+  },
+  {
+    "verse_id": 64,
+    "original": "que il ve daigna chevaliers",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "ve",
+        "lemma": "vëoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|PERS.=3|NOMB.=s|GENRE=m",
+        "treated": "ve"
+      },
+      {
+        "form": "daigna",
+        "lemma": "deignier",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "daigna"
+      },
+      {
+        "form": "chevaliers",
+        "lemma": "chevalier",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "chevaliers"
+      }
+    ]
+  },
+  {
+    "verse_id": 65,
+    "original": "devenir an sa region",
+    "lemmatized": [
+      {
+        "form": "devenir",
+        "lemma": "devenir",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "devenir"
+      },
+      {
+        "form": "an",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "an"
+      },
+      {
+        "form": "sa",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=f|CAS=r",
+        "treated": "sa"
+      },
+      {
+        "form": "region",
+        "lemma": "regïon",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "region"
+      }
+    ]
+  },
+  {
+    "verse_id": 66,
+    "original": "sot oye fiere mention",
+    "lemmatized": [
+      {
+        "form": "sot",
+        "lemma": "savoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "sot"
+      },
+      {
+        "form": "oye",
+        "lemma": "öir",
+        "POS": "VERcjg",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "oye"
+      },
+      {
+        "form": "fiere",
+        "lemma": "fier",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=f|CAS=r|DEGRE=p",
+        "treated": "fiere"
+      },
+      {
+        "form": "mention",
+        "lemma": "mencïon",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "mention"
+      }
+    ]
+  },
+  {
+    "verse_id": 67,
+    "original": "dou roi artus qui lors reignoit",
+    "lemmatized": [
+      {
+        "form": "dou",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "dou"
+      },
+      {
+        "form": "roi",
+        "lemma": "roi2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "roi"
+      },
+      {
+        "form": "artus",
+        "lemma": "Artu",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "artus"
+      },
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "lors",
+        "lemma": "lors",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "lors"
+      },
+      {
+        "form": "reignoit",
+        "lemma": "regner",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "reignoit"
+      }
+    ]
+  },
+  {
+    "verse_id": 68,
+    "original": "et des barons que il tenoit",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "des",
+        "lemma": "de+le",
+        "POS": "PRE.DETdef",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "des"
+      },
+      {
+        "form": "barons",
+        "lemma": "baron",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "barons"
+      },
+      {
+        "form": "que",
+        "lemma": "que2",
+        "POS": "PROrel",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "que"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "tenoit",
+        "lemma": "tenir1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "tenoit"
+      }
+    ]
+  },
+  {
+    "verse_id": 69,
+    "original": "en sa conpaignie tot jorz",
+    "lemmatized": [
+      {
+        "form": "en",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "sa",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=f|CAS=r",
+        "treated": "sa"
+      },
+      {
+        "form": "conpaignie",
+        "lemma": "compagnie",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "conpaignie"
+      },
+      {
+        "form": "tot",
+        "lemma": "tot",
+        "POS": "DETind",
+        "morph": "GENRE=m|CAS=r",
+        "treated": "tot"
+      },
+      {
+        "form": "jorz",
+        "lemma": "jor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=p|GENRE=m|CAS=r",
+        "treated": "jorz"
+      }
+    ]
+  },
+  {
+    "verse_id": 70,
+    "original": "par quo est renome sa torz",
+    "lemmatized": [
+      {
+        "form": "par",
+        "lemma": "par",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "par"
+      },
+      {
+        "form": "quo",
+        "lemma": "que2",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "quo"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "renome",
+        "lemma": "renomer",
+        "POS": "VERppe",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "renome"
+      },
+      {
+        "form": "sa",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=f|CAS=n",
+        "treated": "sa"
+      },
+      {
+        "form": "torz",
+        "lemma": "tort2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "torz"
+      }
+    ]
+  },
+  {
+    "verse_id": 71,
+    "original": "e jerome par lei node",
+    "lemmatized": [
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "jerome",
+        "lemma": "Jerome",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|NOMB.=s|GENRE=m",
+        "treated": "jerome"
+      },
+      {
+        "form": "par",
+        "lemma": "par",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "par"
+      },
+      {
+        "form": "lei",
+        "lemma": "loi3",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "lei"
+      },
+      {
+        "form": "node",
+        "lemma": "nom",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "node"
+      }
+    ]
+  },
+  {
+    "verse_id": 72,
+    "original": "coment que la mis li responde",
+    "lemmatized": [
+      {
+        "form": "coment",
+        "lemma": "coment1",
+        "POS": "ADVgen",
+        "morph": "MORPH=empty",
+        "treated": "coment"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "la",
+        "lemma": "là",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "la"
+      },
+      {
+        "form": "mis",
+        "lemma": "metre2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "mis"
+      },
+      {
+        "form": "li",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "li"
+      },
+      {
+        "form": "responde",
+        "lemma": "respondre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "responde"
+      }
+    ]
+  },
+  {
+    "verse_id": 73,
+    "original": "et coment qu’il l’en avingne",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "coment",
+        "lemma": "coment1",
+        "POS": "ADVgen",
+        "morph": "MORPH=empty",
+        "treated": "coment"
+      },
+      {
+        "form": "qu’",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "qu"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "l’",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "en",
+        "lemma": "en2",
+        "POS": "PROadv",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "avingne",
+        "lemma": "avenir",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "avingne"
+      }
+    ]
+  },
+  {
+    "verse_id": 74,
+    "original": "n’est riens nulle qui les desteingne",
+    "lemmatized": [
+      {
+        "form": "n’",
+        "lemma": "ne1",
+        "POS": "ADVneg",
+        "morph": "MORPH=empty",
+        "treated": "n"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "riens",
+        "lemma": "rien",
+        "POS": "PROind",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "riens"
+      },
+      {
+        "form": "nulle",
+        "lemma": "nul",
+        "POS": "ADJind",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "nulle"
+      },
+      {
+        "form": "qui",
+        "lemma": "qui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "qui"
+      },
+      {
+        "form": "les",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=p|GENRE=f|CAS=r",
+        "treated": "les"
+      },
+      {
+        "form": "desteingne",
+        "lemma": "desteindre2",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "desteingne"
+      }
+    ]
+  },
+  {
+    "verse_id": 75,
+    "original": "que aler ne s’en voille en bretaingne",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "aler",
+        "lemma": "aler",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "aler"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne1",
+        "POS": "ADVneg",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "s’",
+        "lemma": "soi1",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "s"
+      },
+      {
+        "form": "en",
+        "lemma": "en2",
+        "POS": "PROadv",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "voille",
+        "lemma": "voloir",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "voille"
+      },
+      {
+        "form": "en",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "bretaingne",
+        "lemma": "Bretaigne",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "bretaingne"
+      }
+    ]
+  },
+  {
+    "verse_id": 76,
+    "original": "mes einz est droiz que congié preingne",
+    "lemmatized": [
+      {
+        "form": "mes",
+        "lemma": "mais1",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "mes"
+      },
+      {
+        "form": "einz",
+        "lemma": "ainz",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "einz"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "droiz",
+        "lemma": "droit",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "droiz"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "congié",
+        "lemma": "congié",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "congié"
+      },
+      {
+        "form": "preingne",
+        "lemma": "prendre",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "preingne"
+      }
+    ]
+  },
+  {
+    "verse_id": 77,
+    "original": "a son pere qu’il s’en aille",
+    "lemmatized": [
+      {
+        "form": "a",
+        "lemma": "a3",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "a"
+      },
+      {
+        "form": "son",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "son"
+      },
+      {
+        "form": "pere",
+        "lemma": "pere",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "pere"
+      },
+      {
+        "form": "qu’",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "qu"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "s’",
+        "lemma": "soi1",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "s"
+      },
+      {
+        "form": "en",
+        "lemma": "en2",
+        "POS": "PROadv",
+        "morph": "MORPH=empty",
+        "treated": "en"
+      },
+      {
+        "form": "aille",
+        "lemma": "aler",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "aille"
+      }
+    ]
+  },
+  {
+    "verse_id": 78,
+    "original": "an bretaigne ne cornaille",
+    "lemmatized": [
+      {
+        "form": "an",
+        "lemma": "en1",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "an"
+      },
+      {
+        "form": "bretaigne",
+        "lemma": "Bretaigne",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "bretaigne"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne2",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "cornaille",
+        "lemma": "cornaille1",
+        "POS": "NOMcom",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "cornaille"
+      }
+    ]
+  },
+  {
+    "verse_id": 79,
+    "original": "por congié prendre et demander",
+    "lemmatized": [
+      {
+        "form": "por",
+        "lemma": "por2",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "por"
+      },
+      {
+        "form": "congié",
+        "lemma": "congié",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "congié"
+      },
+      {
+        "form": "prendre",
+        "lemma": "prendre",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "prendre"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "demander",
+        "lemma": "demander",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "demander"
+      }
+    ]
+  },
+  {
+    "verse_id": 80,
+    "original": "va a l’empereor parlar",
+    "lemmatized": [
+      {
+        "form": "va",
+        "lemma": "aler",
+        "POS": "VERcjg",
+        "morph": "MODE=imp|TEMPS=pst|PERS.=2|NOMB.=s",
+        "treated": "va"
+      },
+      {
+        "form": "a",
+        "lemma": "a3",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "a"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "empereor",
+        "lemma": "emperëor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "empereor"
+      },
+      {
+        "form": "parlar",
+        "lemma": "parler",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "parlar"
+      }
+    ]
+  },
+  {
+    "verse_id": 81,
+    "original": "alixandres li beauz li prouz",
+    "lemmatized": [
+      {
+        "form": "alixandres",
+        "lemma": "Alixandre",
+        "POS": "NOMpro",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "alixandres"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "beauz",
+        "lemma": "bel1",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "beauz"
+      },
+      {
+        "form": "li",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "li"
+      },
+      {
+        "form": "prouz",
+        "lemma": "pro",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "prouz"
+      }
+    ]
+  },
+  {
+    "verse_id": 82,
+    "original": "ja li dira qu’il est si mieuz",
+    "lemmatized": [
+      {
+        "form": "ja",
+        "lemma": "ja",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "ja"
+      },
+      {
+        "form": "li",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "li"
+      },
+      {
+        "form": "dira",
+        "lemma": "dire",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=fut|PERS.=3|NOMB.=s",
+        "treated": "dira"
+      },
+      {
+        "form": "qu’",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "qu"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "est",
+        "lemma": "estre1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "est"
+      },
+      {
+        "form": "si",
+        "lemma": "si",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "si"
+      },
+      {
+        "form": "mieuz",
+        "lemma": "mieus",
+        "POS": "ADVgen",
+        "morph": "DEGRE=c",
+        "treated": "mieuz"
+      }
+    ]
+  },
+  {
+    "verse_id": 83,
+    "original": "et que li vet fiere canprandre",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "li",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "li"
+      },
+      {
+        "form": "vet",
+        "lemma": "aler",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "vet"
+      },
+      {
+        "form": "fiere",
+        "lemma": "fier",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=f|CAS=r|DEGRE=p",
+        "treated": "fiere"
+      },
+      {
+        "form": "canprandre",
+        "lemma": "cemprendre",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "canprandre"
+      }
+    ]
+  },
+  {
+    "verse_id": 84,
+    "original": "biax pere por onor apandre",
+    "lemmatized": [
+      {
+        "form": "biax",
+        "lemma": "bel1",
+        "POS": "ADJqua",
+        "morph": "NOMB.=s|GENRE=m|CAS=r|DEGRE=p",
+        "treated": "biax"
+      },
+      {
+        "form": "pere",
+        "lemma": "pere1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "pere"
+      },
+      {
+        "form": "por",
+        "lemma": "por2",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "por"
+      },
+      {
+        "form": "onor",
+        "lemma": "onor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "onor"
+      },
+      {
+        "form": "apandre",
+        "lemma": "apendre",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "apandre"
+      }
+    ]
+  },
+  {
+    "verse_id": 85,
+    "original": "et por conquerre pris et los",
+    "lemmatized": [
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "por",
+        "lemma": "por2",
+        "POS": "PRE",
+        "morph": "MORPH=empty",
+        "treated": "por"
+      },
+      {
+        "form": "conquerre",
+        "lemma": "conquerre",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "conquerre"
+      },
+      {
+        "form": "pris",
+        "lemma": "pris1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "pris"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "los",
+        "lemma": "los1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "los"
+      }
+    ]
+  },
+  {
+    "verse_id": 86,
+    "original": "un don fait il querre vos os",
+    "lemmatized": [
+      {
+        "form": "un",
+        "lemma": "un",
+        "POS": "DETndf",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "un"
+      },
+      {
+        "form": "don",
+        "lemma": "don",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "don"
+      },
+      {
+        "form": "fait",
+        "lemma": "faire",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "fait"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "querre",
+        "lemma": "querre",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "querre"
+      },
+      {
+        "form": "vos",
+        "lemma": "vostre",
+        "POS": "DETpos",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=r",
+        "treated": "vos"
+      },
+      {
+        "form": "os",
+        "lemma": "os2",
+        "POS": "VERcjg",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "os"
+      }
+    ]
+  },
+  {
+    "verse_id": 87,
+    "original": "que vois que vos me doigniez",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "PROrel",
+        "morph": "GENRE=n|CAS=r",
+        "treated": "que"
+      },
+      {
+        "form": "vois",
+        "lemma": "aler",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s",
+        "treated": "vois"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "vos",
+        "lemma": "vos",
+        "POS": "PROper",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=n",
+        "treated": "vos"
+      },
+      {
+        "form": "me",
+        "lemma": "je",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "me"
+      },
+      {
+        "form": "doigniez",
+        "lemma": "deignier",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=2|NOMB.=p",
+        "treated": "doigniez"
+      }
+    ]
+  },
+  {
+    "verse_id": 88,
+    "original": "ne ja ne le me porloigniez",
+    "lemmatized": [
+      {
+        "form": "ne",
+        "lemma": "ne2",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "ja",
+        "lemma": "ja",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "ja"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne1",
+        "POS": "ADVneg",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "le",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=n|CAS=r",
+        "treated": "le"
+      },
+      {
+        "form": "me",
+        "lemma": "je",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "me"
+      },
+      {
+        "form": "porloigniez",
+        "lemma": "porloignier",
+        "POS": "VERcjg",
+        "morph": "MODE=imp|TEMPS=pst|PERS.=2|NOMB.=p",
+        "treated": "porloigniez"
+      }
+    ]
+  },
+  {
+    "verse_id": 89,
+    "original": "se ostroier le me devez",
+    "lemmatized": [
+      {
+        "form": "se",
+        "lemma": "se",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "se"
+      },
+      {
+        "form": "ostroier",
+        "lemma": "otroiier",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "ostroier"
+      },
+      {
+        "form": "le",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=n|CAS=r",
+        "treated": "le"
+      },
+      {
+        "form": "me",
+        "lemma": "je",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "me"
+      },
+      {
+        "form": "devez",
+        "lemma": "devoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=2|NOMB.=p",
+        "treated": "devez"
+      }
+    ]
+  },
+  {
+    "verse_id": 90,
+    "original": "e neu cuidez estre crevez",
+    "lemmatized": [
+      {
+        "form": "e",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "e"
+      },
+      {
+        "form": "neu",
+        "lemma": "nevo",
+        "POS": "NOMcom",
+        "morph": "GENRE=m",
+        "treated": "neu"
+      },
+      {
+        "form": "cuidez",
+        "lemma": "cuidier1",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=2|NOMB.=p",
+        "treated": "cuidez"
+      },
+      {
+        "form": "estre",
+        "lemma": "estre1",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "estre"
+      },
+      {
+        "form": "crevez",
+        "lemma": "crever",
+        "POS": "VERppe",
+        "morph": "NOMB.=p|GENRE=m|CAS=n",
+        "treated": "crevez"
+      }
+    ]
+  },
+  {
+    "verse_id": 91,
+    "original": "l’amperere ne poy ne bien",
+    "lemmatized": [
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "l"
+      },
+      {
+        "form": "amperere",
+        "lemma": "emperëor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "amperere"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne1",
+        "POS": "ADVneg",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "poy",
+        "lemma": "pöoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s",
+        "treated": "poy"
+      },
+      {
+        "form": "ne",
+        "lemma": "ne1",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "ne"
+      },
+      {
+        "form": "bien",
+        "lemma": "bien1",
+        "POS": "ADVgen",
+        "morph": "DEGRE=p",
+        "treated": "bien"
+      }
+    ]
+  },
+  {
+    "verse_id": 92,
+    "original": "l’anor son fil fist tote rien",
+    "lemmatized": [
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "l"
+      },
+      {
+        "form": "anor",
+        "lemma": "onor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=n",
+        "treated": "anor"
+      },
+      {
+        "form": "son",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "son"
+      },
+      {
+        "form": "fil",
+        "lemma": "fil2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "fil"
+      },
+      {
+        "form": "fist",
+        "lemma": "faire",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "fist"
+      },
+      {
+        "form": "tote",
+        "lemma": "tot",
+        "POS": "DETind",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "tote"
+      },
+      {
+        "form": "rien",
+        "lemma": "rien",
+        "POS": "PROind",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "rien"
+      }
+    ]
+  },
+  {
+    "verse_id": 93,
+    "original": "voit il voloir et covoitier",
+    "lemmatized": [
+      {
+        "form": "voit",
+        "lemma": "vëoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s",
+        "treated": "voit"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "voloir",
+        "lemma": "voloir",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "voloir"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "covoitier",
+        "lemma": "covoitier",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "covoitier"
+      }
+    ]
+  },
+  {
+    "verse_id": 94,
+    "original": "mult cuideroit bien esploitier",
+    "lemmatized": [
+      {
+        "form": "mult",
+        "lemma": "mout",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "mult"
+      },
+      {
+        "form": "cuideroit",
+        "lemma": "cuidier1",
+        "POS": "VERcjg",
+        "morph": "MODE=con|PERS.=3|NOMB.=s",
+        "treated": "cuideroit"
+      },
+      {
+        "form": "bien",
+        "lemma": "bien1",
+        "POS": "ADVgen",
+        "morph": "DEGRE=p",
+        "treated": "bien"
+      },
+      {
+        "form": "esploitier",
+        "lemma": "esploitier",
+        "POS": "VERinf",
+        "morph": "MORPH=empty",
+        "treated": "esploitier"
+      }
+    ]
+  },
+  {
+    "verse_id": 95,
+    "original": "S’il acroisoit l’onor son fil",
+    "lemmatized": [
+      {
+        "form": "S’",
+        "lemma": "se",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "S"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "acroisoit",
+        "lemma": "acroistre",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "acroisoit"
+      },
+      {
+        "form": "l’",
+        "lemma": "le",
+        "POS": "DETdef",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "l"
+      },
+      {
+        "form": "onor",
+        "lemma": "onor",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "onor"
+      },
+      {
+        "form": "son",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "son"
+      },
+      {
+        "form": "fil",
+        "lemma": "fil2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "fil"
+      }
+    ]
+  },
+  {
+    "verse_id": 96,
+    "original": "cui devoit il se sevoit il",
+    "lemmatized": [
+      {
+        "form": "cui",
+        "lemma": "cui",
+        "POS": "PROrel",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "cui"
+      },
+      {
+        "form": "devoit",
+        "lemma": "devoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "devoit"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      },
+      {
+        "form": "se",
+        "lemma": "soi1",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "se"
+      },
+      {
+        "form": "sevoit",
+        "lemma": "savoir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=ipf|PERS.=3|NOMB.=s",
+        "treated": "sevoit"
+      },
+      {
+        "form": "il",
+        "lemma": "il",
+        "POS": "PROper",
+        "morph": "PERS.=3|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "il"
+      }
+    ]
+  },
+  {
+    "verse_id": 97,
+    "original": "si dist bieaux fiz je vos otroy",
+    "lemmatized": [
+      {
+        "form": "si",
+        "lemma": "si",
+        "POS": "ADVgen",
+        "morph": "DEGRE=-",
+        "treated": "si"
+      },
+      {
+        "form": "dist",
+        "lemma": "dire",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s",
+        "treated": "dist"
+      },
+      {
+        "form": "bieaux",
+        "lemma": "bel1",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n|DEGRE=p",
+        "treated": "bieaux"
+      },
+      {
+        "form": "fiz",
+        "lemma": "fil2",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=n",
+        "treated": "fiz"
+      },
+      {
+        "form": "je",
+        "lemma": "je",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "je"
+      },
+      {
+        "form": "vos",
+        "lemma": "vos",
+        "POS": "PROper",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=r",
+        "treated": "vos"
+      },
+      {
+        "form": "otroy",
+        "lemma": "otroiier",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s",
+        "treated": "otroy"
+      }
+    ]
+  },
+  {
+    "verse_id": 98,
+    "original": "vostre pleisir et dites moi",
+    "lemmatized": [
+      {
+        "form": "vostre",
+        "lemma": "vostre",
+        "POS": "DETpos",
+        "morph": "PERS.=2|NOMB.=s|GENRE=m|CAS=r",
+        "treated": "vostre"
+      },
+      {
+        "form": "pleisir",
+        "lemma": "plaisir",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=m|CAS=r",
+        "treated": "pleisir"
+      },
+      {
+        "form": "et",
+        "lemma": "et",
+        "POS": "CONcoo",
+        "morph": "MORPH=empty",
+        "treated": "et"
+      },
+      {
+        "form": "dites",
+        "lemma": "dire",
+        "POS": "VERcjg",
+        "morph": "MODE=imp|PERS.=2|NOMB.=p",
+        "treated": "dites"
+      },
+      {
+        "form": "moi",
+        "lemma": "je",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=s|GENRE=m|CAS=i",
+        "treated": "moi"
+      }
+    ]
+  },
+  {
+    "verse_id": 99,
+    "original": "que vos volez que je vos doigne",
+    "lemmatized": [
+      {
+        "form": "que",
+        "lemma": "que2",
+        "POS": "PROrel",
+        "morph": "CAS=r",
+        "treated": "que"
+      },
+      {
+        "form": "vos",
+        "lemma": "vos",
+        "POS": "PROper",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=n",
+        "treated": "vos"
+      },
+      {
+        "form": "volez",
+        "lemma": "voloir",
+        "POS": "VERcjg",
+        "morph": "MODE=ind|TEMPS=pst|PERS.=2|NOMB.=p",
+        "treated": "volez"
+      },
+      {
+        "form": "que",
+        "lemma": "que4",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "que"
+      },
+      {
+        "form": "je",
+        "lemma": "je",
+        "POS": "PROper",
+        "morph": "PERS.=1|NOMB.=s|GENRE=m|CAS=n",
+        "treated": "je"
+      },
+      {
+        "form": "vos",
+        "lemma": "vos",
+        "POS": "PROper",
+        "morph": "PERS.=2|NOMB.=p|GENRE=m|CAS=r",
+        "treated": "vos"
+      },
+      {
+        "form": "doigne",
+        "lemma": "doner",
+        "POS": "VERcjg",
+        "morph": "MODE=sub|TEMPS=pst|PERS.=1|NOMB.=s",
+        "treated": "doigne"
+      }
+    ]
+  },
+  {
+    "verse_id": 100,
+    "original": "qua bien faite sa besoigne",
+    "lemmatized": [
+      {
+        "form": "qua",
+        "lemma": "cas",
+        "POS": "CONsub",
+        "morph": "MORPH=empty",
+        "treated": "qua"
+      },
+      {
+        "form": "bien",
+        "lemma": "bien1",
+        "POS": "ADVgen",
+        "morph": "DEGRE=p",
+        "treated": "bien"
+      },
+      {
+        "form": "faite",
+        "lemma": "faire",
+        "POS": "VERppe",
+        "morph": "TEMPS=pst|NOMB.=s|GENRE=f|CAS=r",
+        "treated": "faite"
+      },
+      {
+        "form": "sa",
+        "lemma": "son4",
+        "POS": "DETpos",
+        "morph": "PERS.=3|NOMB.=s|GENRE=f|CAS=r",
+        "treated": "sa"
+      },
+      {
+        "form": "besoigne",
+        "lemma": "besoigne",
+        "POS": "NOMcom",
+        "morph": "NOMB.=s|GENRE=f|CAS=r",
+        "treated": "besoigne"
+      }
+    ]
+  }
+]
