@@ -1,0 +1,1175 @@
+\pdfoutput=1
+\documentclass[11pt,a4paper,reqno]{amsart}
+\usepackage{amssymb}
+
+\usepackage{bm}
+\numberwithin{equation}{section}
+
+\usepackage{mathabx}
+\usepackage{mathtools}%                  http://www.ctan.org/pkg/mathtools
+%\usepackage{color}
+
+
+
+\theoremstyle{plain}
+
+\newtheorem{theorem}[equation]{Theorem}
+\newtheorem{proposition}[equation]{Proposition}
+\newtheorem{lemma}[equation]{Lemma}
+\newtheorem{corollary}[equation]{Corollary}
+\newtheorem{conjecture}[equation]{Conjecture}
+\newtheorem{principle}[equation]{Principle}
+\newtheorem{claim}[equation]{Claim}
+
+\theoremstyle{definition}
+
+\newtheorem{definition}[equation]{Definition}
+\newtheorem{remark}[equation]{Remark}
+\newtheorem{remarks}[equation]{Remarks}
+\newtheorem{example}[equation]{Example}
+\newtheorem{examples}[equation]{Examples}
+%\newtheorem{problem}[subsection]{Problem}
+%\newtheorem{question}[subsection]{Question}
+
+\newcommand\R{\mathbb{R}}
+\newcommand\Z{\mathbb{Z}}
+\newcommand\N{\mathbb{N}}
+\newcommand\Q{\mathbb{Q}}
+\newcommand\eps{\varepsilon}
+\newcommand\normsymb{\ell}  % was \|\,\|
+\newcommand\norm[1]{\ell({#1})}   % was \|{#1}\|
+\newcommand\normn[1]{\ell_n({#1})}   % was \|{#1}\|
+\newcommand\free[1]{\mathbf{F}_{#1}}
+
+
+\usepackage[breaklinks=true,hidelinks]{hyperref}
+
+
+\begin{document}
+
+\title{Homogeneous length functions on groups}
+
+\author{D.H.J. Polymath}
+\address{\url{http://michaelnielsen.org/polymath1/index.php}}
+%\email{}
+
+\begin{abstract}
+A pseudo-length function defined on an arbitrary group $G = (G,\cdot,e,
+(\,)^{-1})$ is a map $\normsymb: G \to [0,+\infty)$ obeying $\norm{e}=0$,
+the symmetry property $\norm{x^{-1}} = \norm{x}$, and the triangle
+inequality $\norm{xy} \leq \norm{x} + \norm{y}$ for all $x,y \in G$. We
+consider pseudo-length functions which saturate the triangle inequality
+whenever $x=y$, or equivalently those that are \emph{homogeneous} in the
+sense that $\norm{x^n} = n\,\norm{x}$ for all $n\in\N$. We show that this
+implies that $\norm{[x,y]}=0$ for all $x,y \in G$. This leads to a
+classification of such pseudo-length functions as pullbacks from
+embeddings into a Banach space.  We also obtain a quantitative version of
+our main result which allows for defects in the triangle inequality or
+the homogeneity property.
+\end{abstract}
+
+\subjclass[2010]{20F12, 20F65}
+
+\keywords{homogeneous length function,
+pseudo-length function,
+quasi-morphism,
+Banach space embedding}
+
+\maketitle
+%\today
+
+
+%{{{1 Section 1 - Introduction
+\section{Introduction}
+
+Let $G = (G, \cdot, e, (\,)^{-1})$ be a group (written multiplicatively,
+with identity element $e$).  A \emph{pseudo-length function} on $G$ is a
+map $\normsymb : G \to [0,+\infty)$ that obeys the properties
+\begin{itemize}
+\item $\norm{e} = 0$,
+\item $\norm{ x^{-1} } = \norm{x}$,
+\item $\norm{ x y } \leq \norm{x} + \norm{ y }$
+\end{itemize}
+for all $x,y\in G$.  If in addition we have $\norm{x}>0$ for all $x \in G
+\setminus \{e\}$, we say that $\normsymb$ is a \emph{length function}. By
+setting $d(x,y) \coloneqq \norm{x^{-1}y}$, it is easy to see that
+pseudo-length functions (resp. length functions) are in bijection with
+left-invariant pseudometrics (resp. left-invariant metrics) on $G$.
+
+From the axioms of a pseudo-length function it is clear that one has the
+upper bound
+\[
+\norm{x^n} \leq |n| \, \norm{x}
+\]
+for all $x \in G$ and $n \in \Z$.  Let us say that a pseudo-length
+function $\normsymb: G\to [0,+\infty)$ is \emph{homogeneous} if equality
+is always attained here, thus one has
+\begin{equation}\label{linear-growth}
+\norm{x^n} = |n| \, \norm{x}
+\end{equation}
+for all $x \in G$ and any $n \in \Z$.  Using the axioms of a
+pseudo-length function, it is not difficult to show that the homogeneity
+condition \eqref{linear-growth} is equivalent to the triangle inequality
+holding with equality whenever $x=y$ (i.e., that \eqref{linear-growth}
+holds for $n=2$); see \cite[Lemma 1]{GK}.
+
+If one has a real or
+complex Banach space $\mathbb{B} = (\mathbb{B},\| \, \|)$, and $\phi: G
+\to \mathbb{B}$ is any homomorphism from $G$ to $\mathbb{B}$ (viewing the
+latter as a group in additive notation), then the function $\normsymb: G
+\to [0,+\infty)$ defined by $\norm{x} \coloneqq \| \phi(x) \|$ is easily
+verified to be a homogeneous pseudo-length function.  Furthermore, if
+$\phi$ is injective, then $\normsymb$ will in fact be a homogeneous
+length function.  For instance, the function
+\[
+\norm{ (n, m) } \coloneqq |n + \sqrt{2} m|
+\]
+is a length function on $\Z^2$, where in this case $\mathbb{B} \coloneqq
+\R$ and $\phi(n,m) \coloneqq n  + \sqrt{2} m$.  On the other hand, one
+can easily locate many length functions that are not homogeneous, for
+instance by taking the square root of the length function just
+constructed.
+
+The main result of this paper is that such Banach space constructions are
+in fact the \emph{only} way to generate homogeneous (pseudo-)length
+functions.
+
+\begin{theorem}[Classification of homogeneous length functions]\label{class}
+Given a group $G$, let $\normsymb: G \to [0,+\infty)$ be a homogeneous
+pseudo-length function.  Then there exist a real Banach space $\mathbb{B}
+= (\mathbb{B},\| \, \|)$ and a group homomorphism $\phi : G \to
+\mathbb{B}$ such that $\norm{x} = \| \phi(x) \|$ for all $x \in G$.
+Furthermore, if $\normsymb$ is a length function, one can take $\phi$ to
+be injective, i.e., an isometric embedding.
+\end{theorem}
+
+We will derive Theorem~\ref{class} from a more quantitative result
+bounding the pseudo-length of a commutator
+\begin{equation}\label{comdef}
+[x,y] \coloneqq xyx^{-1}y^{-1};
+\end{equation}
+see Proposition~\ref{main} below.  Our arguments will be elementary,
+relying on directly applying the axioms of a homogeneous length function
+to various carefully chosen words of $x$ and $y$, and repeatedly taking
+an asymptotic limit $n \to \infty$ to dispose of various error terms that
+arise in the estimates obtained in this fashion.
+
+As one quick corollary of Theorem \ref{class}, we will obtain the
+following characterization of the groups that admit
+homogeneous length functions.
+
+\begin{corollary}\label{abel}
+A group admits a homogeneous length function if and only if it is
+abelian and torsion-free.
+\end{corollary}
+%}}}
+
+
+%{{{1 Section 1.1 - Examples and approaches
+\subsection{Examples and approaches}
+
+We now make a few remarks to indicate the nontriviality of
+Theorem~\ref{class}. Corollary \ref{abel} asserts in particular that
+there are no non-abelian groups with homogeneous length functions.
+Whether or not such a striking geometric rigidity phenomenon holds was
+previously unknown to experts. Moreover, the corollary fails
+to hold if one or more of the precise conditions in the theorem are
+weakened. For instance, such pseudo-length functions indeed exist (i)~on
+non-abelian monoids, and (ii)~on all balls of finite radius in free
+groups. We explain these two cases further in Section \ref{remarks-sec}.
+
+Given these cases, one could \textit{a priori} ask if every non-abelian
+group admits a homogeneous length function. This is not hard to
+disprove; here are two examples.
+
+\begin{example}[Nilpotent groups]
+If $G$ is a nilpotent group of nilpotency class $2$ (such as the
+Heisenberg group), then one has the identity $[x,y]^{n^2} = [x^n,y^n]$
+for all $x,y \in G$ and natural numbers $n$ (since the map $(g,h) \mapsto
+[g,h]$ is now a bihomomorphism $: G \times G \to [G,G] \subset Z(G)$).
+If $[x,y]$ is non-trivial, then any homogeneous length function on $G$
+would assign a linearly growing quantity to the right-hand side and a
+quadratically growing quantity to the left-hand side, which is absurd;
+thus such groups cannot admit homogeneous length functions.  The claim
+then also follows for nilpotent groups of higher nilpotency class, since
+they contain subgroups of nilpotency class $2$.
+\end{example}
+
+
+\begin{example}[Connected Lie groups]
+As we explain in Remark~\ref{Rinv}, a homogeneous length function in fact
+induces a \textit{bi-invariant} metric. Thus, if $G$ is a connected Lie
+group with a homogeneous length function, then by \cite[Lemma
+7.5]{Milnor}, $G \cong K \times \R^n$ for some compact Lie group $K$ and
+integer $n \geq 0$. By \eqref{linear-growth}, $K$ cannot have torsion
+elements, hence must be trivial. But then $G$ is abelian.
+\end{example}
+
+Prior to Corollary \ref{abel}, the above examples left open the question
+of whether \textit{any} non-abelian group admits a homogeneous length
+function. One may as well consider groups generated by two non-commuting
+elements. As a prototypical example, let $\free{2}$ be the free group on
+two generators $a,b$.  The word length function on $\free{2}$ is a length
+function, but it is not homogeneous, since for instance the word length
+of $(bab^{-1})^n = ba^n b^{-1}$ is $n+2$, which is not a linear function
+of $n$.  (It is however the case that the word length of $x^n$ has linear
+\emph{growth} in $n$ for any non-trivial $x$.) Similarly for the
+Levenshtein distance (edit distance) on $\free{2}$.
+
+Our initial attempts to construct homogeneous length functions on
+$\free{2}$ all failed in light of our main result. However, many of these
+methods apply under minor weakening of the hypotheses, such as working
+with monoids rather than groups, or weakening homogeneity. Results in
+these cases are discussed further in Section \ref{remarks-sec}.
+%}}}
+
+
+%{{{1 Section 1.2 - Further motivations
+\subsection{Further motivations}
+
+We conclude this part with some motivations from functional analysis and
+probability, or more precisely the study of Banach space embeddings. If
+$G$ is an additive subgroup of a Banach space $\mathbb{B}$, then clearly
+the norm on $\mathbb{B}$ restricts to a homogeneous length function on
+$G$. In~\cite{CSC,GK} one can find several equivalent conditions for a
+given length function on a given group to arise in this way (studied in
+the broader context of additive mappings and separation theorems in
+functional analysis). These conditions are summarized in the following:
+
+\begin{proposition}[{see \cite[Proposition 3.9]{KR2}}]\label{Pnormed}
+Given a group $G$ equipped with a length function $\normsymb : G \to
+[0,+\infty)$, the following are equivalent:
+\begin{itemize}
+\item[\textup{(1)}] There exists a Banach space $\mathbb{B}$ and a group
+homomorphism $G \to \mathbb{B}$ that is an isometric embedding.
+
+\item[\textup{(2)}] $G$ is abelian and $d_G(x,y) \coloneqq \norm{ x^{-1}
+y }$ is a translation-invariant metric for which $G$ is `normed',
+i.e., $d_G(e,x^n) = |n|\, d_G(e,x)$ for each $x\in G$ and $n\in \Z$. In
+particular, $G$ is torsion-free.
+
+\item[\textup{(3)}] $G$ is $\{ 2 \}$-normed \textup{$($}i.e.,
+$\norm{ x^2 } = 2 \norm{ x }$ for each $x\in G$\textup{$)$} and is {\em
+weakly commutative}, i.e., for all $x,y \in G$ there exists $n = n(x,y)
+\in \mathbb{N}$ such that $(xy)^{2^n} = x^{2^n} y^{2^n}$.
+
+\item[\textup{(4)}] $G$ is $\{ 2 \}$-normed and amenable.
+\end{itemize}
+\end{proposition}
+
+In view of these equivalences, it is natural to try and characterize the
+groups possessing a norm. This question is answered by
+Corollary~\ref{abel}, which shows these are precisely the abelian
+torsion-free groups. Thus in assertion (2), the hypothesis of admitting a
+`norm' (i.e., homogeneous length function) is equivalent to that of being
+abelian and torsion-free; and hence one may use either set of data to
+infer the remaining assertions in Proposition \ref{Pnormed}.
+
+Groups and semigroups with translation-invariant metrics also naturally
+arise in probability theory, with the most important `normed' (i.e.,
+homogeneous) examples being Banach spaces~\cite{LT}. Notice however that
+in certain fundamental stochastic settings, formulating -- and proving --
+results does not require the full Banach space structure. In this vein, a
+general variant of the Hoffmann-J{\o}rgensen inequality was shown in
+\cite{KR1} in arbitrary metric semigroups -- including Banach spaces as
+well as (non-abelian) compact Lie groups. Similarly in \cite{KR2}, the
+authors transferred the (sharp) Khinchin--Kahane inequality from Banach
+spaces to abelian groups $G$ equipped with a homogeneous length function.
+To explore extensions of these results to the non-abelian setting --
+e.g., of Lie groups with left-invariant metrics -- we need to first
+understand if such objects exist. As explained above, this question was
+not answered in the literature; but it is now settled by our main result.
+
+Finally, there may also be a relation to the Ribe program \cite{Naor},
+which aims to reformulate aspects of Banach space theory in purely metric
+terms. Indeed, from Corollary~\ref{abel} we see that a metric space $X$
+is isometric to an additive subgroup of a Banach space if and only if
+there is a group structure on $X$ which makes the metric left-invariant
+and the length function $\norm{ x } \coloneqq d(1,x)$ homogeneous.
+%}}}
+
+
+\section*{Acknowledgements}
+
+This project is an online collaboration that originated from a blog post
+at \url{https://terrytao.wordpress.com/2017/12/16}, following the model
+of the ``Polymath'' projects \cite{gn}.  A full list of participants and
+their grant acknowledgments may be found at
+\begin{center}
+\small{\url{http://michaelnielsen.org/polymath1/index.php?title=linear\_norm\_grant\_acknowledgments}}
+\end{center}
+
+
+%{{{1 Section 2 - Key proposition
+\section{Key proposition}
+
+The key proposition used to prove Theorem~\ref{class} is the following
+estimate, which can treat a somewhat more general class of functions than
+homogeneous pseudo-length functions, in which the symmetry hypothesis is
+dropped and one allows for an error in the triangle inequality and the
+homogeneity property (which is now only claimed for $n=2$).
+
+\begin{proposition}\label{main}
+Let $G = (G,\cdot)$ be a group, let $c,c' \in \R$, and let
+$\normsymb: G \to \R$ be a function obeying the following axioms:
+\begin{itemize}
+\item[(i)]  For any $x,y \in G$, one has
+\begin{equation}\label{ng}
+ \norm{xy} \leq \norm{x}+\norm{y} + c.
+\end{equation}
+\item[(ii)]  For any $x \in G$, one has
+\begin{equation}\label{double}
+ \norm{x^2} \geq 2\norm{x} - c'.
+\end{equation}
+\end{itemize}
+Then for any $x,y \in G$, one has
+\begin{equation}\label{xyc}
+ \norm{ [x,y] } \leq 4 c + 5 c',
+\end{equation}
+where the commutator $[x,y]$ was defined in \eqref{comdef}.
+\end{proposition}
+
+Notably, we neither assume symmetry $\norm{ x^{-1} } = \norm{ x }$, not
+even up to a constant, nor $\norm{ e } = 0$; we also allow $\normsymb$ to
+take on negative values.  The reader may however wish to restrict
+attention to length functions (and set $c=c'=0$) for a first reading of
+the arguments below.   The factors of $4,5$ are probably not optimal
+here, but the crucial feature of the bound \eqref{xyc} for our
+application is that the right-hand side vanishes when $c=c'=0$.
+
+For the remainder of this section, let $G$, $c,c'$, and $\normsymb$
+satisfy the hypotheses of the proposition.  Our task is to establish the
+bound \eqref{xyc}.  We shall now use \eqref{ng} and \eqref{double}
+repeatedly to establish a number of further inequalities relating the
+pseudo-lengths $\norm{x}$ of various elements $x$ of $G$, culminating in
+\eqref{xyc}.
+Many of our inequalities will involve terms that depend on an auxiliary
+parameter $n$, but we will be able to eliminate several of them by the
+device of passing to the limit $n \to \infty$.  It is because of this
+device that we are able to obtain a bound \eqref{xyc} whose right-hand
+side is completely uniform in $x$ and $y$.
+
+From \eqref{ng} and induction we have the approximate upper homogeneity
+bound
+\begin{equation}\label{ng-iter}
+ \norm{x^n} \leq n \norm{x} + (n-1) c
+\end{equation}
+for any natural number $n \geq 1$.  Similarly, from \eqref{double} and
+induction one has the lower homogeneity bound
+\[
+\norm{x^n} \geq n \norm{x} - (n-1) c'
+\]
+whenever $n$ is a power of two.  It is convenient to rearrange this
+latter inequality as
+\begin{equation}\label{rearrange}
+\norm{x} \leq \frac{\norm{x^n}}{n}  + \frac{n-1}{n} c'.
+\end{equation}
+This inequality (particularly in the asymptotic limit $n \to \infty$)
+will be the principal means by which the hypothesis \eqref{double} is
+employed.
+
+We remark that by further use of \eqref{ng-iter} one can also obtain a
+similar estimate to \eqref{rearrange} for natural numbers $n$ that are
+not powers of two\footnote{For instance, this argument shows that if a
+pseudo-length function obeys the doubling condition
+$\norm{x^2}=2\norm{x}$ for each $x\in G$, then it is homogeneous; see
+also \cite[Lemma 1]{GK}.}, but the powers of two will suffice for the
+arguments that follow.
+
+\begin{lemma}[Approximate conjugation invariance]\label{aci}
+For any $x,y \in G$, one has
+\[
+\norm{yxy^{-1} } \leq \norm{ x } + c + c'.
+\]
+\end{lemma}
+
+
+\begin{remark}\label{Rinv}
+Setting $c=c'=0$, we conclude that any homogeneous pseudo-length function
+is conjugation invariant, and thus determines a bi-invariant metric on
+$G$. It should not be surprising that this observation is used in the
+proof of Theorem~\ref{class}, since it is a simple consequence of that
+theorem.
+\end{remark}
+
+\begin{proof}[Proof of Lemma~\ref{aci}]
+From \eqref{rearrange} (with $x$ replaced by $yxy^{-1}$) one has
+\[
+\norm{yxy^{-1}} \leq \frac{\norm{y x^n y^{-1}} }{n} + \frac{n-1}{n} c'
+\]
+whenever $n$ is a power of two.  On the other hand, from \eqref{ng-iter}
+and \eqref{ng} one has
+\[
+\norm{ y x^n y^{-1} } \leq \norm{y} + n \norm{x} + \norm{y^{-1}} + (n+1) c
+\]
+and thus
+\[
+\norm{yxy^{-1}} \leq \norm{x} + c + c' + \frac{\norm{y} + \norm{y^{-1}} +
+c - c'}{n}.
+\]
+Sending $n \to \infty$, we obtain the claim.
+\end{proof}
+
+
+\begin{lemma}[Splitting lemma]\label{split}
+Let $x,y,z,w \in G$ be such that $x$ is conjugate to both $wy$ and
+$zw^{-1}$.  Then one has
+\begin{equation}\label{ineq}
+\norm{x} \leq \frac{\norm{y} + \norm{ z } }{2}  + \frac{3}{2} (c + c').
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+If we write $x = swys^{-1} = t zw^{-1} t^{-1}$ for some $s,t \in G$, then
+from \eqref{rearrange} we have
+\begin{align*}
+ \norm{x} &\leq \frac{\norm{ x^n x^n } }{2n} + \frac{2n-1}{2n} c' \\
+&= \frac{\norm{ s(wy)^n s^{-1}t (zw^{-1})^n t^{-1} } }{2n} +
+ \frac{2n-1}{2n} c'
+\end{align*}
+whenever $n$ is a power of two.  From Lemma~\ref{aci} and \eqref{ng} one
+has
+\begin{align*}
+\norm{(wy)^{k+1} s^{-1}t (zw^{-1})^{k+1} } &= \norm{ w y (wy)^k s^{-1} t
+(zw^{-1})^k z w^{-1} } \\
+&\leq \norm{ y (wy)^k s^{-1} t (zw^{-1})^k z } + c + c' \\
+&\leq \norm{ (wy)^k s^{-1} t (zw^{-1})^k } + \norm{y} + \norm{z} + 3c +
+c'
+\end{align*}
+for any $k \geq 0$, and hence by induction
+\[
+\norm{(wy)^n s^{-1}t (zw^{-1})^n } \leq \norm{s^{-1} t} + n ( \norm{y} +
+\norm{z} + 3c + c' ).
+\]
+Inserting this into the previous bound for $\norm{x}$ (via two
+applications of \eqref{ng}), we conclude that
+\[
+\norm{x} \leq \frac{\norm{y} + \norm{z}+ 3c + c' }{2} + \frac{\norm{s} +
+\norm{s^{-1}t} + \norm{t^{-1}} + 2c}{2n} + \frac{2n-1}{2n} c';
+\]
+sending $n \to \infty$, we obtain the claim.
+\end{proof}
+
+
+\begin{corollary}
+If $x,y \in G$, let $f = f_{x,y}: \Z^2 \to \R$ denote the function
+\[
+f(m,k) \coloneqq \norm{ x^m [x,y]^k }.
+\]
+Then for any $m,k \in \Z$, we have
+\begin{equation}\label{fmk}
+ f(m,k) \leq \frac{f(m-1,k) + f(m+1,k-1)}{2} + 2(c + c').
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+Observe that $x^m [x,y]^k$ is conjugate to both $x (x^{m-1} [x,y]^k)$ and
+to $(y^{-1} x^m [x,y]^{k-1} xy) x^{-1}$, hence by \eqref{ineq} one has
+\[
+\norm{ x^m [x,y]^k } \leq \frac{\norm{ x^{m-1} [x,y]^k } + \norm{ y^{-1}
+x^{m} [x,y]^{k-1} xy }}{2} + \frac{3}{2} (c + c').
+\]
+Since $y^{-1} x^{m} [x,y]^{k-1} xy $ is conjugate to $x^{m+1}
+[x,y]^{k-1}$, the claim now follows from Lemma~\ref{aci}.
+\end{proof}
+
+We now prove Proposition~\ref{main}. Let $x,y \in G$.  We can
+write the inequality \eqref{fmk} in probabilistic form as
+\[
+f(m,k) \leq {\mathbf E} f\left( \left(m,k-\frac{1}{2}\right) + Y
+\left(1,-\frac{1}{2}\right) \right) + 2(c + c')
+\]
+where $Y = \pm 1$ is a Bernoulli random variable that equals $1$ or $-1$
+with equal probability.  The key point here is the drift of $\left(0,
+-\frac{1}{2} \right)$ in the right-hand side.
+Iterating this inequality, we see that if we let
+$n$ be a large power of $2$, then we have
+\[
+f( 0, n) \leq {\mathbf E} f\left( (Y_1 + \dots + Y_{2n}) \left(1,
+-\frac{1}{2}\right) \right) + 4(c + c') n,
+\]
+where $Y_1,\dots,Y_{2n}$ are independent copies of $Y$ (so in particular
+$Y_1+\dots+Y_{2n}$ is an even integer).
+
+From \eqref{ng} and \eqref{ng-iter} one has the inequality
+\begin{eqnarray*}
+f(m,k) & \leq &
+|m| \left(\max( \norm{x}, \norm{x^{-1}})+c\right)\\
+& & + |k| \left(\max(
+\norm{[x,y]}, \norm{[x,y]^{-1}})
++ c\right) + \norm{e}
+\end{eqnarray*}
+(the final term being needed to deal with the $m=k=0$ case).  We conclude
+that
+\[
+f\left( (Y_1 + \dots + Y_{2n}) \left(1, -\frac{1}{2}\right) \right) \leq
+A |Y_1 + \dots + Y_{2n}| + \norm{e}
+\]
+where $A$ is a quantity independent of $n$; more explicitly, one can take
+\[
+A \coloneqq \max\left( \norm{x}, \norm{x^{-1}}\right) + \frac{1}{2}
+\max\left(\norm{[x,y]}, \norm{[x,y]^{-1}}\right)  + \frac{3}{2} c.
+\]
+Taking expectations, since the random variable $Y_1+\dots+Y_{2n}$ has
+mean zero and variance $2n$, we see from the Cauchy--Schwarz inequality
+(or Jensen's inequality) that
+\[
+{\mathbf E}|Y_1 + \dots + Y_{2n}|  \leq \left( {\mathbf E}|Y_1 + \dots +
+Y_{2n}|^2 \right)^{1/2} = \sqrt{2n}
+\]
+and hence
+\[
+f(0,n) \leq A \sqrt{2n} + \norm{e} + 4 (c + c') n.
+\]
+But from \eqref{rearrange} we have
+\[
+\norm{[x,y]} \leq \frac{f(0,n)}{n}  + \frac{n-1}{n} c'.
+\]
+Combining these two bounds and sending $n \to \infty$, we obtain
+Proposition~\ref{main}.
+
+
+\begin{remark}
+As discussed in the footnote preceding Lemma \ref{aci}, if $c=0$ then the
+condition $c'=0$, or equivalently $\norm{x^2} = 2 \norm{x}$ for all $x \in
+G$, is in turn equivalent to $\norm{x^k} = k \norm{x}$ for all $x \in G$,
+for any $k \geq 2$. One can thus ask if \eqref{double} can be replaced by
+a similar condition of the form
+\[
+\norm{x^k} \geq k \norm{x} - c'
+\]
+for some $k \geq 2$. We claim that such a condition essentially implies
+\eqref{double}. Indeed, using the triangle inequality for $x^k =
+(x^2)^{\lfloor k/2 \rfloor} x^\delta$ where $\delta=0,1$, we obtain:
+\[
+k \norm{x} - c' \leq \norm{x^k} \leq O(k) \norm{x^2} + c \, O(k),
+\]
+which in turn implies $\norm{x^2} \geq O(1) \norm{x} - O(1) c - c'/k$.
+\end{remark}
+
+
+\begin{remark}
+One can deduce a `local' version of Proposition \ref{main} as follows:
+notice that the constants $c,c'$ can be described in terms of $\normsymb$
+from \eqref{ng} and \eqref{double}, to yield
+\begin{equation}\label{9bound}
+\norm{ [x,y] } \leq 4 \left( \sup_{z,w \in G} \norm{zw} - \norm{z} -
+\norm{w} \right) + 5 \left( \sup_{z \in G} 2 \norm{z} - \norm{z^2}
+\right),
+\end{equation}
+for any group $G$ and function $\normsymb : G \to \R$, and any $x,y \in
+G$.
+(Both sides are zero when $G$ is a Banach space and $\normsymb$ is the
+norm, so equality is obtained in that case.)
+Now it is enough to consider $G = \langle x,y\rangle$ without loss of
+generality, which may lead to a better bound on $\norm{ [x,y] }$ than
+taking the suprema over all of $G$.
+Notice also that at least one of the constants $c,c'$ must be
+non-negative, from \eqref{ng} with $x=y$ and \eqref{double}:
+\begin{equation}\label{Enonneg}
+\max \{ c, c' \} \geq \max\left\{ \norm{e^2} - 2 \norm{e}, 2 \norm{e} -
+\norm{e^2}\right\} = \max \{ -\norm{e}, \norm{e} \} \geq 0.
+\end{equation}
+In fact, this reasoning and our results imply that the only way to get
+$c=c'=0$ on the right-hand side of \eqref{9bound} is when $\normsymb$
+arises from pulling back the norm of a Banach space $\mathbb{B}$ along a
+group homomorphism $G\to\mathbb{B}$, or equivalently along a group
+homomorphism from the torsion-free abelianization of $G$ to $\mathbb{B}$.
+\end{remark}
+%}}}
+
+
+%{{{1 Section 3 - Proof of main theorem
+\section{Proof of main theorem}
+
+With Proposition~\ref{main} in hand, it is not difficult to conclude the
+proof of Theorem~\ref{class}.  Suppose that $G$ is a group with a
+homogeneous pseudo-length function $\normsymb: G \to [0,+\infty)$.
+Applying Proposition~\ref{main} with $c=c'=0$, we conclude that
+$\norm{[x,y]}=0$ for all $x,y \in G$, thus by the triangle inequality
+$\normsymb$ vanishes on the commutator subgroup $[G,G]$, and therefore
+factors through the abelianization $G_{\mathrm{ab}} \coloneqq G/[G,G]$ of
+$G$.  (This already establishes part of one implication of
+Corollary~\ref{abel}.)  Factoring out by $[G,G]$ like this, we may now
+assume without loss of generality that $G$ is abelian.  To
+reflect this, we now use additive notation for $G$, thus for instance
+$\norm{nx} = |n| \norm{x}$ for each $x \in G$ and $n \in \Z$, and one can
+also view $G$ as a module over the integers $\Z$.
+
+At this point we repeat the arguments in \cite[Theorem B]{KR2}, which
+treated the case when $G$ was separable, though it turns out that this
+separability hypothesis is unnecessary.
+
+If $x$ is a torsion element of $G$ (thus $nx=0$ for some $n$), then the
+homogeneity condition forces $\norm{x}=0$.  Thus $\normsymb$ vanishes on
+the torsion subgroup of $G$; factoring out by this subgroup, we may thus
+assume without loss of generality that $G$ is not only abelian, but is
+also torsion-free.
+
+We can view $G$ as a subgroup of the $\Q$-vector space $G \otimes_\Z \Q$,
+the elements of which can be formally expressed as $\frac{1}{n} x$ for
+natural numbers $n$ and elements $x \in G$ (with two such expressions
+$\frac{1}{n} x, \frac{1}{m} y$ identified if and only if $mx = ny$, and
+the $\Q$-vector space operations defined in the obvious fashion); the
+fact that this is well defined as a $\Q$-vector space follows from the
+hypotheses that $G$ is abelian and torsion-free.  We can then define a
+seminorm $\| \, \|_\Q: G \otimes_\Z \Q \to [0,+\infty)$ by setting
+\[
+\left\|\frac{1}{n} x\right\|_\Q \coloneqq \frac{1}{n} \norm{x}
+\]
+for any $x \in G$ and natural number $n$; the linear growth condition
+ensures that $\|\,\|_\Q$ is well-defined.  It is not difficult to verify
+the homogeneity condition
+\[
+\| q x \|_\Q = |q| \|x\|_\Q
+\]
+and the triangle inequality
+\[
+\|x+y\|_\Q \leq \|x\|_\Q + \|y\|_\Q
+\]
+for all $x,y \in G \otimes_\Z \Q$ and $q \in \Q$, so that $\| \, \|_\Q$ is
+indeed a seminorm over the $\Q$-vector space $G \otimes_\Z \Q$.
+
+The $\Q$-vector space $G \otimes_\Z \Q$ may be embedded in turn into the
+$\R$-vector space $G \otimes_\Z \R = (G \otimes_\Z \Q) \otimes_\Q \R$,
+elements of which take the form $\alpha_1 x_1 + \dots + \alpha_k x_k$ for
+some $x_1,\dots,x_k \in G \otimes_\Z \Q$ and $\alpha_1,\dots,\alpha_k \in
+\R$.  We identify two such elements $\alpha_1 x_1 + \dots + \alpha_k
+x_k$, $\beta_1 y_1 + \dots + \beta_l y_l$ if and only if there are
+$\Q$-linearly independent elements $z_1,\dots,z_m \in G \otimes_\Z \Q$
+and coefficients $a_{in}, b_{jn} \in \Q$ for $i=1,\dots,k$,
+$j=1,\dots,l$, $n=1,\dots,m$ such that $x_i = \sum_{n=1}^m a_{in} z_n$
+for each $i=1,\dots,k$, $y_j = \sum_{n=1}^m b_{jn} z_n$ for each
+$j=1,\dots,l$, and $\sum_{i=1}^k \alpha_i a_{in} = \sum_{j=1}^l \beta_j
+b_{jn}$ for each $n=1,\dots,m$; one can check that this criterion does not
+depend on the precise choice of linearly independent elements
+$z_1,\dots,z_m$, so long as their span contains all of the
+$x_1,\dots,x_k, y_1,\dots,y_l$.\footnote{Stated slightly differently, let
+$z_1, \dots, z_m$ denote a $\Q$-basis of the $\Q$-span of the $x_i, y_j$,
+and define the vector $\bm{z} \coloneqq (z_1, \dots, z_m)^T$ by abuse of
+notation; similarly define $\bm{x}, \bm{y}, \bm{\alpha}, \bm{\beta}$.
+Then $\bm{x} = A \bm{z}, \ \bm{y} = B \bm{z}$ for matrices
+$A \in \Q^{k \times m}, B \in \Q^{l \times m}$, and
+we identify $\bm{\alpha}^T \bm{x} = \bm{\beta}^T \bm{y}$ if and only if
+$\bm{\alpha}^T A = \bm{\beta}^T B$.}
+It is easy to verify\footnote{One subtle point is that if $G$ is already
+embedded inside an existing $\R$-vector space $V$, then the vector space
+$G \otimes_\Z \R$ constructed here is not necessarily a subspace of that
+vector space (although there will be a canonical linear map from $G
+\otimes_\Z \R$ to $V$).  For instance, if $G = \langle 1, \sqrt{2}
+\rangle \subset \R$, then while $G$ is contained in a one-dimensional
+$\R$-vector space, $G \otimes_\Z \R$ is in fact two-dimensional (with the
+generators $1$ and $\sqrt{2}$ of $G$ forming a $\R$-basis of this space);
+the point is that the vector space operations on $G \otimes_\Z \R$ do not
+agree in this case with those of the ambient vector space $\R$, for
+instance in $G \otimes_\Z \R$ the second generator $\sqrt{2}$ is not
+equal to the scalar multiple of the first generator $1$ by $\sqrt{2}$.
+To avoid confusion, we recommend to the reader that they view $G$ as an
+abstract group that is not already embedded into an existing $\R$-vector
+space.} that $G \otimes_\Z \R$ has the structure of an $\R$-vector space
+that contains $G \otimes_\Z \Q$ (and hence $G$).  We can extend the
+seminorm $\|\,\|_\Q$ to $G \otimes_\Z \R$ by setting
+\[
+\|\alpha_1 x_1 + \dots + \alpha_k x_k\|_\R \coloneqq
+\lim_{(q_1,\dots,q_k) \to (\alpha_1,\dots,\alpha_k)} \| q_1 x_1 + \dots +
+q_k x_k\|_\Q
+\]
+where $(q_1,\dots,q_k)$ is restricted to $\Q^k$.  For any given
+$\alpha_1,\dots,\alpha_k,x_1,\dots,x_k$ it is easy to see using the
+triangle inequality and homogeneity that the limit exists.  We still need
+to verify that the seminorm is well-defined, in the sense that
+\[
+\|\alpha_1 x_1 + \dots + \alpha_k x_k\|_\R  = \| \beta_1 y_1 + \dots +
+\beta_l y_l \|_\R
+\]
+whenever $\alpha_1 x_1 + \dots + \alpha_k x_k = \beta_1 y_1 + \dots +
+\beta_l y_l$.  By the triangle inequality it suffices to verify this at
+the origin, or more precisely that
+\[
+\lim_{(q_1,\dots,q_k) \to (\alpha_1,\dots,\alpha_k)} \| q_1 x_1 + \dots +
+q_k x_k\|_\Q = 0
+\]
+whenever $x_1,\dots,x_k \in G \otimes_\Z \Q$ and $\alpha_1,\dots,\alpha_k
+\in \R$ are such that $\alpha_1 x_1 + \dots + \alpha_k x_k = 0$.  To
+prove this one can induct on $k$, the case $k=0$ being trivial.  If one
+of the $x_1,\dots,x_k$ is a $\Q$-linear combination of the others, then
+we can eliminate it and invoke the induction hypothesis for $k-1$, so we
+may assume without loss of generality that the $x_1,\dots,x_k$ are
+linearly independent over $\Q$.  But then, by construction of $G
+\otimes_\Z \R$, the condition $\alpha_1 x_1 + \dots + \alpha_k x_k = 0$
+forces $\alpha_1=\dots=\alpha_k=0$, and the claim now follows from the
+triangle inequality and homogeneity.
+
+By construction, $\| \, \|_\R: G \otimes_\Z \R \to
+[0,+\infty)$ obeys the homogeneity condition
+\[
+\| \alpha x \|_\R = |\alpha| \|x\|_\R
+\]
+and the triangle inequality
+\[
+\|x+y\|_\R \leq \|x\|_\R + \|y\|_\R
+\]
+for all $x,y \in G \otimes_\Z \R$ and $\alpha \in \R$; thus $\|\,\|_\R$
+is a seminorm on $G \otimes_\Z \R$.   By the usual metric completion
+device of taking formal Cauchy sequences and factoring out the elements
+that converge to zero, we can find a real Banach space $\mathbb{B} =
+(\mathbb{B},\|\,\|_{\mathbb{B}})$ and an $\R$-linear map $\phi: G
+\otimes_\Z \R \to \mathbb{B}$ such that $\|x\|_\R = \| \phi(x)
+\|_{\mathbb{B}}$ for each $x \in G \otimes_\Z \R$.
+(In fact, as observed in \cite{KR2}, one can directly take the metric
+space completion of $G \otimes_\Z \Q$ without first passing to $G
+\otimes_\Z \R$.)
+It is now clear that $\phi$ restricts to a homomorphism from $G$ to
+$\mathbb{B}$ such that $\norm{x} = \| \phi(x) \|_{\mathbb{B}}$ for each
+$x \in G$.  Finally, if $\normsymb$ is a length function, then $\|
+\phi(x) \|_{\mathbb{B}}$ must be non-zero for each $x \neq e$, which
+implies that the kernel of $\phi$ is trivial and hence $\phi$ is
+injective.
+
+This concludes the proof of Theorem~\ref{class}.  Since the homomorphism
+$\phi: G \to \mathbb{B}$ can only be injective for abelian torsion-free
+$G$, we obtain the ``only if'' portion of Corollary~\ref{abel}.
+Conversely, if a group $G$ is abelian and torsion-free, by the above
+constructions it embeds into a real vector space $\mathbb{B} \coloneqq G
+\otimes_\Z \R$; now by Zorn's lemma $\mathbb{B}$ has a norm (e.g.,
+consider the $\ell^1$ norm with respect to a Hamel basis of
+$\mathbb{B}$), which restricts to the desired homogeneous length function
+on $G$. We remark, as also mentioned in \cite{KR2}, that $G \otimes_\Z
+\R$ is the construction of the smallest, `enveloping' vector space
+containing a copy of the abelian, torsion-free group $G$.
+
+\begin{remark}
+The above arguments also show that homogeneous pseudo-length functions on
+$G$ are in bijection with seminorms on the real vector space
+$G_{\mathrm{ab},0} \otimes_\Z \R$, where $G_{\mathrm{ab},0}$ denotes the
+torsion-free abelianization of $G$.
+\end{remark}
+%}}}
+
+
+\section{Further remarks and results}\label{remarks-sec}
+
+One could ask if the homogeneity condition can be relaxed to an
+asymptotic homogeneity condition
+\[
+\lim_{n \to \infty} \frac{\norm{ x^n }}{ n } = \norm{ x }, \ \text{ for
+each }\ x \in G.
+\]
+In fact this condition is equivalent to homogeneity,
+since for all positive integers $m \in \N$, the sequence
+$\{ \norm{ x^{mn} } / (mn) : n \geq 1 \}$ would converge
+as $n \to \infty$ to both $\norm{ x }$ and $\norm{ x^m } / m$.
+
+However, if we weaken any of several conditions in the above
+formulations, then examples of such structures do, in fact, exist. Here
+we mention several such cases and discuss other related problems.
+
+
+%{{{1 Section 4.1 - Monoids and embeddings
+\subsection{Monoids and embeddings}
+
+Our first weakening is to replace `groups' by the more primitive
+structures `monoids' or `semigroups'. In this case, Robert Young (private
+communication) described to us non-abelian monoids with homogeneous,
+bi-invariant length functions:
+consider the free monoid $\mathrm{FMon}(X)$ on any alphabet $X$ of size
+at least $2$, with the `edit' distance $d(v,w)$ between strings $v,w \in
+\mathrm{FMon}(X)$ being the least number of single generator insertions
+and deletions to get from $v$ to $w$. The triangle inequality and
+positivity are easily verified, while homogeneity of the corresponding
+length function $\norm{x} \coloneqq d(e,x)$ is trivial. Moreover, the
+metric $d(\cdot,\cdot)$ turns out to be bi-invariant:
+\[
+d(gxh,gyh) = d(x,y) \ \text{ for all }\ g,h,x,y \in \mathrm{FMon}(X).
+\]
+This specializes to left- and right-invariance upon taking $g \in X$ and
+$h = e$, or  $h \in X$ and $g = e$, respectively.
+
+Note moreover that $\mathrm{FMon}(X)$ embeds into $\mathrm{FGp}(X)$ (the
+free group generated by $X$ and $X^{-1}$, the collection of symbols
+defined to be inverses of elements of $X$), and in particular, is
+cancellative. While this trivially addresses the embeddability issue,
+notice that a more refined version of embeddability fails. Namely, by our
+main theorem, $\mathrm{FMon}(X)$ does not embed into any group in the
+category $\mathcal{C}_{\rm{bi-inv,\ hom}}$ with cancellative semigroups
+with homogeneous bi-invariant metrics as objects and isometric semigroup
+maps as morphisms. Thus, one may reasonably ask what is a sufficiently
+small category in which the embeddability works.
+
+\begin{proposition}\label{Pisometry}
+Let $\mathcal{C}_{\rm{bi-inv}}$ denote the category whose objects are
+cancellative semigroups with bi-invariant metrics, and morphisms are
+isometric semigroup maps. Then $\mathrm{FMon}(X)$ embeds isometrically
+into $\mathrm{FGp}(X)$ in $\mathcal{C}_{\rm{bi-inv}}$.
+\end{proposition}
+
+\begin{proof}
+From above, $\mathrm{FMon}(X)$ is an object of
+$\mathcal{C}_{\rm{bi-inv}}$; denote the metric by $d_{FM}$. One can check
+that $d_{FM}(w,w')$ equals the difference $l(w) + l(w')$ (the sum of the
+lengths in $X$) minus twice the length of the longest common (possibly
+non-contiguous) substring in $w,w'$.
+
+We next claim $\mathrm{FGp}(X)$ is also an object of
+$\mathcal{C}_{\rm{bi-inv}}$. Namely, for a word $w=x_1x_2\cdots x_m$ in
+the free group, we consider \emph{non-crossing matchings} in $w$, i.e.,
+sets $M$ of pairs of letters in $\{1,2,\dots m\}$ such that the following
+hold.
+\begin{itemize}
+\item If $(i, j)\in M$, then $i< j$ and  $x_j=x_i^{-1}$.
+\item If $(i, j)\in M$ and $(k, l)\in M$, then either $(i, j) = (k, l)$
+or $i$, $j$, $k$ and $l$ are distinct.
+\item If $i<k<j<l$ and $(i, j)\in M$, then $(k, l)\notin M$.
+\end{itemize}
+
+Given a matching $M$ as above, consider the set $U=U(M)$ of indices $k$,
+$1\leq k\leq m$ which are not part of a pair in $M$. Define the
+\emph{deficiency} of the matching $M$ as the cardinality of the set
+$U(M)$, and define the length $\norm{w}$ of the word $w$ as the infimum
+of the deficiency over all non-crossing matchings in $w$.
+This length was previously studied in \cite{gadgil}, including checking
+that it is well-defined on all of $\mathrm{FGp}(X)$; moreover, $\norm{w}$
+equals the smallest number of conjugates of elements in $X \sqcup X^{-1}$
+whose product is $w$. Now define $d_{FG}(w,w') \coloneqq \norm{w^{-1}
+w'}$. It is easy to see that $\normsymb$ is a conjugacy invariant length
+function.
+
+We claim that $d_{FG} \equiv d_{FM}$ on $\mathrm{FMon}(X)$, which proves
+the result. It is easy to show that if two words in $\mathrm{FMon}(X)$
+differ by a single insertion or deletion, then their distance in
+$\mathrm{FGp}(X)$ is at most one, hence exactly one. In the other
+direction, we claim that a non-crossing matching on $w^{-1}w'$, with $w$
+and $w'$ containing only positive generators (in $X$), is just a
+`rainbow', i.e.~nested arches with one end in $w^{-1}$ and the other in
+$w'$. But then $d_{FG}(w,w')$ equals $l(w) + l(w')$ minus twice the
+length of a common substring, which is maximal by the minimality of the
+deficiency. Hence $d_{FG}(w,w') = d_{FM}(w,w')$, completing the proof.
+\end{proof}
+%}}}
+
+
+%{{{1 Section 4.2 - Quasi-pseudo-length functions via quasimorphisms
+\subsection{Quasi-pseudo-length functions via quasimorphisms}
+
+We see that Proposition~\ref{main} is also of interest for $c > 0$, as
+follows. A \emph{quasi-morphism} on a group $G$ is a map $f : G \to \R$
+whose \emph{defect} is bounded,
+\[
+	D(f) \coloneqq \sup_{x,y\in G} | f(xy) - f(x) - f(y) | < +\infty.
+\]
+Let us use the term \emph{quasi-pseudo-length function} for a function
+$\normsymb : G \to [0,+\infty)$ which satisfies the relaxed triangle
+inequality~\eqref{ng} for some $c$. Then every quasi-morphism as above
+induces a quasi-pseudo-length function by setting
+\begin{equation}\label{quasimortonorm}
+	\norm{ x } \coloneqq | f(x) |,
+\end{equation}
+where we can take $c = D(f)$.
+
+A quasi-morphism is \emph{homogeneous} if $f( x^n ) = n f( x )$ for $n
+\in \N$. Replacing any quasi-morphism $f$ by
+$\lim_{n \to \infty} f( x^n) / n$ results in a homogeneous
+quasi-morphism. (Note that this limit exists by the de Bruijn--Erd\"os
+generalization \cite[Theorem 23]{BE} of Fekete's subadditive lemma.)
+A homogeneous quasi-morphism defines a quasi-pseudo-length function that
+is homogeneous.\footnote{Of course, homogeneous quasi-morphisms must
+satisfy
+\[
+\sup_{n \geq 1} |f(e) - f(g^n) - f(g^{-n})| = \sup_{n \geq 1} |f(e) -
+n(f(g) + f(g^{-1}))| < \infty,
+\]
+whence $f(g^{-1}) = -f(g)$ for all $g \in G$. On the other hand, if $f
+\not\equiv 0$ then the corresponding homogeneous quasi-pseudo-length
+function $\normsymb \coloneqq |f|$ never has bounded defect, since if
+$f(g) \neq 0$ then $\inf_{n \geq 0} \norm{e} - \norm{g^n} - \norm{g^{-n}}
+= \inf_{n \geq 0} -2n \norm{g} = -\infty$. So in a sense, the two
+concepts are `morally different'.}
+In this case, Proposition~\ref{main} makes a rather trivial statement: a
+homogeneous quasi-morphism is bounded on commutators,
+\[
+	| f([x,y]) | \leq 4 D(f).
+\]
+In fact, as observed in \cite[Lemme~1.1]{Br}, one can improve the
+constant $4$ to $3$ in this case.
+
+Nevertheless, quasi-morphisms can be utilized to construct interesting
+quasi-pseudo-length functions, for example satisfying homogeneity on
+specific commutators. The following quasi-morphism is due to
+Brooks~\cite[Section~2]{Fu}.
+For a given word $w$ in the free group $\free{2}$, written in reduced
+form, let $f_w : \free{2} \to \R$ be the function which assigns to every
+other $g\in \free{2}$, also written in reduced form, the maximum number
+of times such that $w$ occurs in $g$ without overlaps, minus the
+analogous number of times that $w^{-1}$ can maximally occur in $g$. Since
+$f_w(w^n) = n f_w(w)$, homogenizing this quasi-morphism and taking the
+absolute value results in a quasi-pseudo-length function that is
+homogeneous on the powers of $w$. For example with $w$ being the
+commutator of the generators of $\free{2}$, we see that although the
+quasi-pseudo-length function must be bounded on commutators by
+Proposition~\ref{main}, it can nevertheless grow linearly on the powers
+of a fixed commutator.
+%}}}
+
+
+%{{{1 Section 4.3 - Finite balls in free groups
+\subsection{Finite balls in free groups}
+
+From Proposition~\ref{main} and a standard compactness argument, we can
+establish the following local version of the theorem.
+
+\begin{theorem}
+For any $\eps>0$ there exists $R \geq 4$ with the following property: if
+$a,b$ are two elements of a group $G$, $B_{a,b}(R) \subset G$ is the
+collection of all words in $a,b,a^{-1},b^{-1}$ of length at most $R$
+\textup{$($}so in particular $B_{a,b}(R)$ contains $[a,b]$\textup{$)$},
+and the map $\normsymb: B_{a,b}(R) \to [0,+\infty)$ is a ``local
+pseudo-length function'' which obeys the triangle inequality
+\begin{equation}\label{tri}
+ \norm{ xy } \leq \norm{x} + \norm{y}
+\end{equation}
+whenever $x,y,xy \in B_{a,b}(R)$, with equality when $x=y$, then one has
+\[
+\norm{ [a,b] } \leq \eps ( \norm{a} + \norm{b} ).
+\]
+\end{theorem}
+
+\begin{proof}
+By pulling back to the formal group generated by $a$ and $b$, we may
+assume without loss of generality that $G$ is the free group generated by
+$a$ and $b$.  Without loss of generality we may also normalize
+$\norm{a}+\norm{b}=1$.  If the claim failed, then one could find a
+sequence $R_n \to \infty$ and local pseudo-length functions $\normsymb_n:
+B_{a,b}(R_n) \to [0,+\infty)$ such that $\normn{a}+\normn{b} = 1$, but
+that $\normn{[a,b]} \geq \eps$.  By the Arzela--Ascoli theorem, we can
+pass to a subsequence that converges pointwise to a homogeneous
+pseudo-length function $\normsymb: G \to [0,+\infty)$ such that
+$\norm{[a,b]} \geq \eps$, which contradicts Proposition~\ref{main}.
+\end{proof}
+
+\begin{remark}
+By carefully going through the arguments in the previous section,
+choosing $n$ to be various small powers of $R$ instead of sending $n$ to
+infinity, one can extract an explicit value of $R$ of the form $R = C
+\eps^{-A}$ for some absolute constants $C, A > 0$; we leave the details
+to the interested reader.
+\end{remark}
+
+
+On the other hand, for any finite $R$ one can construct local
+pseudo-length functions $\normsymb: B(0,R) \to [0,+\infty)$ such that
+$\norm{x} > 0$ for all $x \in B(0,R) \setminus \{e\}$.  One construction
+is as follows. Any two matrices $U_a, U_b\in SO(3)$ define a
+representation $x \mapsto U_x$ of the free group $\free{2}$ in the
+obvious fashion.  Every $U_x$ is then a rotation around some axis in
+$\R^3$ by some angle $0 \leq \theta \leq \pi$ in one of the two
+directions around that axis; if $U_a$ and $U_b$ are sufficiently close to
+the identity, then the angle of rotation of $U_x$ will be at most $\pi/2$
+for all $x \in B(0,R)$. We set $\norm{x}$ to be equal to this angle of
+rotation.  Also, if $U_a,U_b$ are chosen generically, the representation
+will be faithful (this follows from the dominance of word maps on simple
+Lie groups such as $SO(3)$, see \cite{borel}), so $\norm{x}>0$ for any
+non-identity $x$.  From the triangle inequality for angles we thus have
+\eqref{tri} whenever $x,y,xy \in B(0,R)$, with equality when $x=y$.  Note
+that as one sends $R \to \infty$, the local pseudo-length functions
+constructed here converge to zero pointwise, so in the limit we do not
+get any counterexample to the main theorem.
+%}}}
+
+
+%{{{1 Section 4.4 - Quasi-norms and commutator lengths
+\subsection{Quasi-norms and commutator lengths}
+
+Our main result is  a classification theorem for homogeneous
+pseudo-length functions. We will see next that even in the case of
+homogeneous quasi-length functions, i.e., where we replace $\norm{xy}
+\leq \norm{x} + \norm{y}$ by $\norm{xy} \leq \norm{x} + \norm{y} + c$ for
+a fixed constant $c\geq 0$, we get non-trivial restrictions on these
+functions which give the main result in the case when $c=0$. Further, we
+see that the restrictions we obtain are essentially the strongest
+possible.
+
+Recall that the \emph{commutator length} $\mathrm{cl}(g)$ of a word in
+$[G, G]$ is the length $k$ of the shortest expression $g = [a_1,
+b_1]\cdot[a_2, b_2]\cdots[a_k, b_k]$ of $g$ as a product of commutators.
+The \emph{stable commutator length} is defined as $\lim_{n\to\infty}
+\mathrm{cl}(g^n)/n$, where the limit exists by sub-additivity of the
+function $n\mapsto \mathrm{cl}(g^n)$.
+
+Then Proposition~\ref{main}, together with \eqref{ng}, \eqref{rearrange},
+easily imply the following estimates:
+
+\begin{proposition}
+Let $\normsymb$, $c$, $c'$ be as in Proposition~\ref{main}. Then for
+$g\in [G, G] \setminus \{e\}$,
+$\norm{g}\leq 5(c+c')\, \mathrm{cl}(g) - c$ and $\norm{g}\leq 5(c+c')\,
+\mathrm{scl}(g) + c'$.
+\end{proposition}
+
+
+Observe that in various cases where we do not have a (quasi-)homogeneous
+quasi-norm, we get much weaker bounds. For example, consider the word
+$[a^k, b^m]$ in the free group $\free{2}$, generated by $a$ and $b$, for
+some integers $k$ and $m$.
+\begin{itemize}
+\item The norm of such an element with respect  to the word metric is
+$2(|k| + |m|)$.
+
+\item If we have a length function $\normsymb$ which is symmetric and
+conjugation-invariant (but not assumed to be homogeneous), then we have
+the bound $\norm{[a^k, b^m]} \leq 2 \min (|k|\, \norm{a}, |m|\,
+\norm{b})$.  Furthermore, there are conjugation-invariant length
+functions for which these inequalities hold with equality.
+
+Namely, fix positive real numbers $\norm{a}$ and $\norm{b}$; now given a
+word $w = x_1 \cdots x_m$, consider the set $U=U(M)$ of indices $k$,
+$1\leq k\leq m$ which are not part of a pair in a matching $M$; here $M$
+is defined as in the proof of Proposition \ref{Pisometry}. Now define the
+deficiency of $M$ as the sum $\sum_{i\in U}\norm{x_i}$, and as in
+\textit{loc.~cit.}, define $\norm{w}$ to be the infimum of the deficiency
+over all non-crossing matchings in $w$. Then $\normsymb$ is a
+conjugation-invariant length function.
+Further, $\norm{[a^k, b^m]} \geq 2 \min (|k|\, \norm{a}, |m|\, \norm{b})$
+as, for any matching $M$ for $w=[a^k, b^m]$, if some pair $(i, j)$
+corresponds to letters $a$ and $a^{-1}$, then no pair corresponds to
+letters $b$ and $b^{-1}$ and conversely. Further, it is easy to find a
+matching for which the deficiency is $\min (|k|\, \norm{a}, |m|\,
+\norm{b})$.  On the other hand, $\normsymb$ is not homogeneous; for
+instance, $\norm{[a,b]} = 2$ and $\norm{[a,b]^3} = 4$.  Similarly, we
+have $\norm{[a^k,b^k]}=2|k|$ and $\norm{[a^k,b^k]^3} \leq 4|k|$, which
+demonstrates that $2\norm{x} - \norm{x^2}$ is unbounded (as must be the
+case, according to \eqref{9bound}).
+
+\item On the other hand, the function $\normsymb$ associating to each
+word the length of its cyclically reduced form is homogeneous but not a
+quasi-length function. For this we have $\norm{[a^k, b^m]} = 2(|k| +
+|m|)$.
+\end{itemize}
+
+Observe that all of the bounds on $\norm{[a^k, b^m]}$ here become
+unbounded as $k,m \to \infty$.  This should be compared with Proposition
+\ref{main}, which establishes a bound $\norm{[a^k,b^m]} \leq 4c+5c'$ that
+is uniform in $k$ and $m$ for any function $\normsymb$ satisfying the
+hypotheses of that proposition.
+
+Now we show that the bound in Proposition \ref{main} is essentially sharp
+for every finitely generated group $G$.
+By assumption, also the abelianization $G_{\mathrm{ab}} \coloneqq
+G/[G,G]$ is finitely generated. For simplicity of notation, assume
+$G_{\mathrm{ab}}$ is torsion-free. Let $x_1$, $x_2$, \dots, $x_k$ be the
+generators of $G_{\mathrm{ab}} \cong \Z^k$ and let $\varphi: G \to
+G_{\mathrm{ab}}$ be the abelianization map. Let $\alpha_i : G \to \Z$ for
+$i = 1,\ldots, k$ be the homomorphisms such that for all $g\in G$,
+\[
+\varphi(g) = \sum_{i=1}^k \alpha_i(g)x_i.
+\]
+Choose and fix elements $y_i\in G$ such that $\varphi(y_i) = x_i$. We
+define a function $\psi: G \to \mathbb{R}$ by
+\[
+\psi(g) = \mathrm{cl}(g y_1^{-\alpha_1(g)}y_2^{-\alpha_2(g)}\cdots
+y_k^{-\alpha_k(g)}).
+\]
+
+Repeatedly using relations of the form $\mathrm{cl}(ba) =
+\mathrm{cl}(ba[a^{-1}, b^{-1}]) \leq \mathrm{cl}(ab) + 1$, we see that
+\[
+\psi(g_1g_2)\leq \psi(g_1) + \psi(g_2) + (2k + 1),
+\]
+i.e., $\psi$ is a quasi-pseudo-length function. Further, by similar
+arguments we see that
+\[
+\vert\psi((xy)^n) - \psi(x^ny^n)\vert \leq n,
+\]
+from which we deduce that on replacing $\psi$ by its homogenization
+(via \cite[Theorem 23]{BE}), we still get a quasi-pseudo-length function.
+
+Therefore, we can define functions satisfying Proposition~\ref{main}
+which are homogeneous by considering a length function
+$\normsymb_{G_{\mathrm{ab}} }$ on $G_{\mathrm{ab}}$ and taking the linear
+combination
+\[
+\norm{g} \coloneqq \normsymb_{G_{\mathrm{ab}} }(\varphi(g)) +
+\frac{c}{2k+1} \psi(g).
+\]
+This gives a homogeneous function satisfying the hypotheses of
+Proposition~\ref{main} while being strictly positive on all nontrivial
+elements.
+%}}}
+
+
+%{{{1 Bibliography
+\begin{thebibliography}{10}
+
+\bibitem{Br}
+C.~Bavard, {\em Longueur stable des commutateurs}, L'Enseignement
+  Math\'ematique, 37(1--2):109--150, 1991.
+
+\bibitem{borel}
+A.~Borel, \emph{On free subgroups of semisimple groups}, L'Enseignement
+  Math\'ematique, 29(1--2):151--164, 1983.
+
+\bibitem{BE}
+N.G.~de Bruijn and P.~Erd\"os, {\em Some linear and some quadratic
+  recursion formulas. II},
+  \href{http://dx.doi.org/10.1016/S1385-7258(52)50021-0}{Indagationes
+  Mathematicae}, 55:152--163, 1952.
+
+\bibitem{CSC}
+F.~Cabello S\'anchez and J.M.F.~Castillo, {\em Banach space techniques
+  underpinning a theory for nearly additive mappings},
+  \href{https://www.impan.pl/en/publishing-house/journals-and-series/dissertationes-mathematicae/all/404}{Dissertationes
+  Mathematicae} (Rozprawy Matematyczne), 404:1--73, 2002.
+
+\bibitem{Fu}
+K.~Fujiwara, {\em Quasi-homomorphisms on mapping class groups},
+Handbook of Teichm\"uller theory. Vol. II, 241--269,
+IRMA Lect. Math. Theor. Phys., 13, Eur. Math. Soc., Z\"urich, 2009.
+
+\bibitem{gadgil}
+S.~Gadgil, {\em Watson--Crick pairing, the Heisenberg group and Milnor
+  invariants}, \href{http://dx.doi.org/10.1007/s00285-008-0223-x}{Journal
+  of Mathematical Biology} 59(1), Article:123, 2009.
+	
+\bibitem{GK}
+Z.~Gajda and Z.~Kominek, {\em On separation theorems for subadditive and
+  superadditive functionals},
+  \href{http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-smv100i1p25bwm}{Studia
+  Mathematica}, 100(1):25--38, 1991.
+
+\bibitem{gn}
+T.~Gowers and M.~Nielsen, {\em Massively collaborative mathematics},
+  \href{https://www.nature.com/articles/461879a}{Nature},
+  461(7266):879--881, 2009.
+
+\bibitem{KR1}
+A.~Khare and B.~Rajaratnam, {\em The Hoffmann-J{\o}rgensen inequality in
+  metric semigroups}, \href{http://dx.doi.org/10.1214/16-AOP1160}{Annals
+  of Probability}, 45(6A):4101--4111, 2017.
+
+\bibitem{KR2}
+A.~Khare and B.~Rajaratnam, {\em The Khinchin--Kahane inequality and
+  Banach space embeddings for metric groups}, preprint
+  (\href{http://arxiv.org/abs/1610.03037}{arXiv:1610.03037}), 2016.
+
+\bibitem{Koba}
+S.~Kobayashi, {\em Hyperbolic Manifolds and Holomorphic Mappings},
+World Scientific, 1970.
+
+\bibitem{LT}
+M.~Ledoux and M.~Talagrand, {\em Probability in Banach Spaces
+  (Isoperimetry and Processes)}, Ergebnisse der Mathematik und ihrer
+  Grenzgebiete, Springer-Verlag, Berlin-New York, 1991.
+
+\bibitem{Milnor}
+J.~Milnor, {\em Curvatures of left invariant metrics on lie groups},
+  \href{http://dx.doi.org/10.1016/S0001-8708(76)80002-3}{Advances in
+  Mathematics}, 21(3):293--329, 1976.
+
+\bibitem{Naor}
+A.~Naor, {\em An introduction to the Ribe program},
+\href{http://dx.doi.org/10.1007/s11537-012-1222-7}{Japan Journal of
+Mathematics}, 7:167--233, 2012.
+
+\end{thebibliography}
+%}}}
+
+\end{document}
