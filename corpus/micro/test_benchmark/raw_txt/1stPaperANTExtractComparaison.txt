@@ -1,0 +1,8 @@
+Let $\boldsymbol{h} = (h_1, \dots h_k)$ and $Q = 2^{q}$. Putting this altogether and using Lemma 2.18 and (9), we deduce
+	\begin{align}
+		\left| \sum_{n \in I} e(f(n)) \right|^{Q} &\ll \frac{|I|^Q}{H} + \frac{|I|^{Q - 1}}{H_1 \dots H_q} \sum_{1 \leq h_1 < H_1} \dots \sum_{1 \leq h_q < H_q} \left| \sum_{n \in I} e(f_k (n; \boldsymbol{h})) \right| \\
+		&\ll \frac{|I|^Q}{H} + \frac{|I|^{Q - 1}}{H_1 \dots H_q} \sum_{1 \leq h_1 < H_1} \dots \sum_{1 \leq h_q < H_q} \left( A |I| \left( h_1 \dots h_q \lambda_k \right)^{1/2} + \left( h_1 \dots h_q \lambda_k\right)^{-1/2} \right) \numberthis \label{equationScalingProperty} \\
+		&\ll \frac{|I|^Q}{H} + \frac{|I|^{Q - 1}}{H_1 \dots H_q} \left( A |I| \lambda_k^{1/2} H_1^{3/2} \dots H_q^{3/2}  + \lambda_k^{-1/2} H_1^{1/2} \dots H_q^{1/2} \right) \\
+		&= \frac{|I|^Q}{H} + A |I|^Q \lambda_k^{1/2} H_1^{1/2} \dots H_q^{1/2} + |I|^{Q - 1} \lambda_k^{-1/2} H_1^{-1/2} \dots H_q^{-1/2} \\
+		&\ll |I|^Q \left(H^{-1} + A \lambda_k^{1/2} H^{1 - 1/Q}	+ |I|^{-1} \lambda_k^{-1/2} H^{-1 + 1/Q} 	\right)
+\end{align} by definition of $H_1, \dots H_q$ from Lemma 2.18 and by routine considerations about geometric series. To

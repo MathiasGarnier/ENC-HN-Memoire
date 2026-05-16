@@ -1,0 +1,1 @@
+$- \text{Re} \frac{L'}{L}(s, \chi) < A \log(q(|t| + 2)) - \sum_{\substack{\rho \in \mathcal{N}(\chi)\\ |\text{Im}(s - \rho)| < 1}} \text{Re} \frac{1}{s - \rho}$,

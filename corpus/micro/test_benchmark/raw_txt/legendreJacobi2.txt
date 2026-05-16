@@ -1,0 +1,1 @@
+$$ \int \frac{dx}{\sqrt{a + a_1 x + a_2 x^2 + \dots + a_n x^n}}. $$

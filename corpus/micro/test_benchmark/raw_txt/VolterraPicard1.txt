@@ -1,0 +1,15 @@
+et sur laquelle je compte bientôt revenir.
+
+J'ai cherché aussi à généraliser, à un autre point
+
+de vue que vous, les deux équations
+
+$$ \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y};   \frac{\partial u}{\partial y} = - \frac{\partial v}{\partial x}$$
+
+comme vous pourrez le voir dans le Journal de Mathéma-
+
+tiques (1892). On peut trouver une infinité de
+
+systèmes d'équations formant, comme les précédentes, un 
+
+groupe. Pour n = 3, il n'y en a pas d'intéressants

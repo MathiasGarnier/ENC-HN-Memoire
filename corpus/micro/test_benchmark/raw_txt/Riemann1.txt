@@ -1,0 +1,1 @@
+$$ \prod \frac{1}{1 - p^{s}} = \sum \frac{1}{n^s},$$

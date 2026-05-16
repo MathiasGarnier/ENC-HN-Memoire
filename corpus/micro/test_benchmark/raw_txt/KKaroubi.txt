@@ -1,0 +1,4 @@
+\begin{tikzcd}[column sep=large, row sep=large]
+K_{\mathbb{C}}(Y \times S^{2n}) \arrow[r, "p_*^K"] \arrow[d, "Ch"'] & K_{\mathbb{C}}(Y) \arrow[d, "Ch"] \\
+H^*(Y \times S^{2n}; \mathbb{Q}) \arrow[r, "p_*^H"]               & H^*(Y; \mathbb{Q})
+\end{tikzcd}

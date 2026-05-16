@@ -1,0 +1,14 @@
+Définition. Soit $\Lambda \subseteq \mathbb{C}$ un réseau. Une fonction elliptique par rapport à $\Lambda$ est une fonction méromorphe
+$$ f: \mathbb{C} \longrightarrow \mathbb{P}^1(\mathbb{C}) $$
+telle que $f(z+\omega) = f(z)$ pour tout $z \in \mathbb{C}$ et tout $\omega \in \Lambda$.
+
+On note $\mathbb{C}(\Lambda)$ l'ensemble de ces fonctions. C'est un corps.
+
+Remarque. Si $f$ n'a pas de pôles, alors $f$ est constante.
+En effet, soit $D \subseteq \mathbb{C}$ un domaine fondamental. En utilisant que $f$ est $\Lambda$-périodique,
+$$ \sup_{z \in \mathbb{C}} |f(z)| = \sup_{z \in \bar{D}} |f(z)| < +\infty$$
+%$\bar{D}$ 
+% D EST COMPACT
+Par le théorème de Liouville, une fonction holomorphe bornée est constante.
+
+De même, si $f$ n'a pas de zéros, alors $1/f$ n'a pas de pôles, donc $f$ est constante.

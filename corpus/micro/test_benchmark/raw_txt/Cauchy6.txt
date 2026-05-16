@@ -1,0 +1,14 @@
+que fournit la formule (21), et les formules (52) Don-  
+
+neront pour une valeur quelconque de  $n$ ,
+
+$$(53) \quad \text{mod. } \square' \square'' \square''' \dots \square^{(n)} f(x) < 1 \cdot 3 \cdot 5 \dots (2n-1) r^{-n} \left\{ \Lambda \mathscr{F}(x+\bar{x}, t+\theta(\tau-t)) \right\}^n \Lambda f(x+\bar{x}),$$
+
+ou, ce qui revient au même,
+
+$$(54) \quad \text{mod. } \square' \square'' \square''' \dots \square^{(n)} f(x) < 1 \cdot 3 \cdot 5 \dots (2n-1) \left( \Lambda \frac{f(x+\bar{x}, t+\theta(\tau-t))}{\bar{x}} \right)^n \Lambda f(x+\bar{x}).$$
+
+
+Donc, en égard aux formules (93) du § 2, le terme général de  
+
+la série comprise dans le second membre de la formule (46)

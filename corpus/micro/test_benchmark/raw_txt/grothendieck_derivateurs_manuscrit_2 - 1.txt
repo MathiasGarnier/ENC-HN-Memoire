@@ -1,0 +1,1 @@
+\[ 0 \longrightarrow i_* i^! F \longrightarrow F \longrightarrow j_* j^* F \quad . \]

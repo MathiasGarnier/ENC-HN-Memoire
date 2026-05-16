@@ -1,0 +1,3 @@
+$$\mathrm{prof}_{A_m}(\overline{M_m}) = \mathrm{prof}_{A_m}(M_m) - n ,$$
+
+$$\mathrm{dim}_{A_m}(\overline{M_m}) = \mathrm{dim}_{A_m}(M_m) - n ,$$

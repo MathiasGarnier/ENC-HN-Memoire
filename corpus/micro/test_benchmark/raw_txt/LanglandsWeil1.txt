@@ -1,0 +1,6 @@
+Now I am goging to try to define the Artin-Hecke L series.
+
+To do this let us fix for each p an embedding of $\overline{\mathbb{Q}}$, the algebraic closure
+of $\mathbb{Q}$, in $\overline{\mathbb{Q}_p}$. We will have to come back later and check that the
+series are independent of these choices. The choice will be implicit in the next 
+paragraph.

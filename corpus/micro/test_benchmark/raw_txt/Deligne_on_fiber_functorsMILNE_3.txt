@@ -1,0 +1,47 @@
+of representations on which $A B$ acts trivially 
+
+The triples $(\omega', \omega^{''}, \tau)$ are all isomorphic : 
+
+as all $\omega'$ (resp all $\omega^{''}$) are isomorphic, it suffices
+
+to see that  $(\omega', \omega^{''}, \tau_1)$ and  $(\omega', \omega^{''}, \tau_2)$ are isomorphic.
+
+Indeed $\tau_1$ and $\tau_2$ differ by an automorphism of $\omega' | \mathcal{T}' \cap \mathcal{T}^{''}$,
+
+and such an automorphism lifts to an automorphism of $\omega'$ :
+
+$$ G/A (k) \to G/ AB (k) \quad \quad \text{ is onto.}$$
+
+We hence have here categories with just one 
+
+isomorphism class of objects, and the question is to 
+
+compare automorphism group. We need to check 
+
+$$ G \xrightarrow{\sim} \{ (g', g^{''}) \in G/A, G/B | g' \textnormal{ and } g^{''} \textnormal{ have the same image in } G/AB \} $$
+
+$$\begin{array}{ccc}
+    G & \longrightarrow & G/A \
+    \downarrow & \square & \downarrow \
+    G/B & \longrightarrow & G/AB
+\end{array}$$
+
+bijectivity of this morphism of groups amounts to $A \cap B = \{ 0\}$,
+
+surjectivity : if $\overline{g}'$, $\overline{g}^{''}$ lift $g'$, $g^{''}$,
+
+$\tilde{g}^{''} = \tilde{g}'$ $ab$ and $\tilde{g}^{''} b = \tilde{g}' a \in G$ maps to $(g', g^{''})$.
+
+\underline{Lemma 3} Same as lemma 1, but $\mathcal{T}'$ only assumed to be in $A$ 
+
+Let $B$ be the set of $\mathcal{T}_\alpha$ ($\alpha \in A_f$) contained in $\mathcal{T}'$.
+
+One has $\langle \mathcal{T}', \mathcal{T}^{''} \rangle = \bigcup_{\beta \in B} \langle \mathcal{T}_\beta, \mathcal{T}^{''} \rangle$. One has 
+
+equivalences 
+
+$$ (\textnormal{fiber functors on } \mathcal{T}) \xrightarrow{\sim} ( \textnormal{fiber functors } \omega_\beta \textnormal{ on the } \mathcal{T}_\beta, $$
+
+plus a compatible system of isomorphisms $\omega_\beta | \mathcal{T}_\gamma \xrightarrow{\sim} \omega_\gamma$
+
+for $\mathcal{T}_\gamma \subset \mathcal{T}_\beta$ ; compatible condition for $\mathcal{T}_\delta \subset \mathcal{T}_\gamma \subset \mathcal{T}_\beta$ )

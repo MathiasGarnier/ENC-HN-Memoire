@@ -1,0 +1,5 @@
+Fix $p$ again. Then if $a_\sigma = b^\sigma b ^{-1}$,
+
+$$a_\sigma^{'} = \delta(z) a_z^\sigma b^\sigma \delta(z^{-1}) \delta(z) b^{-1} a_z^{-1} \delta(z^{-1})$$
+
+$$ = [\delta'(\sigma^{-1}) \sigma^{-1} \delta(z) a_z b \delta(z^{-1}) \sigma \delta'(\sigma)][\delta(z) a_z b \delta(z^{-1})]$$

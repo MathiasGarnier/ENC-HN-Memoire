@@ -1,0 +1,20 @@
+1) \underline{Unicité de la mesure de Haar}
+
+Soit $\mu$ une mesure invariante à gauche et $\nu$ une mesure invariante 
+à droite, toutes deux $\neq 0$. Soient $f$, $g$ continues à support compact
+le calcul suivant est jusitifé par le théorème élémentaire de
+Lebesgue-Fubini :
+\begin{align}
+    \mu(f) \nu(g) &= \int f(x) d\mu(x) \int g(yx) d \nu(y) = \int d\nu(y) \int f(x) g(yx) d\mu(x) \\
+                  &= \int d \nu(y) \int f(y^{-1}x) g(x) d\mu(x) = \int g(x) d \mu(x) \int f(y^{-1}x) d\nu(y)
+\end{align}
+Si l'on suppose $\mu(f) \neq 0$ et que l'on définisse $\lambda_f$ par 
+\begin{equation}
+    \lambda_f(x) = (\mu(f))^{-1} \int f(y^{-1}x) d\nu(y)
+\end{equation}
+on a donc $\nu(g) = \mu(\lambda_f g)$. Or $f$ est uniformément continue et nulle en 
+dehors d'un compact, donc $\lambda_f$ est continue. Montrons que $\lambda_f$ ne dépend
+pas de $f$ : en effet $\mu((\lambda_f - \lambda_{f'})g) = 0$, d'où si $h = \lambda_f - \lambda_{f'}$ et 
+$g = hk$ ($k$ continue positive à support compact) $\mu(h^2 k) = 0$ et $h^2 k \geq 0$,
+d'où $h^2 k = 0$ sur le support de $\mu$ qui est tout $G$ car invariant par
+translation ; comme ceci est vrai pour tout $k$ on a $h^2 = 0$ d'où $h = 0$.

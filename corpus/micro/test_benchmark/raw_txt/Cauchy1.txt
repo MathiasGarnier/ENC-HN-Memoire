@@ -1,0 +1,14 @@
+blème, on aura entre les coefficients inconnus $a, b, c, ...$
+les $n$ équations du premier degré
+
+\begin{equation}
+
+\begin{cases}
+
+y_1 &= a u_1 + b v_1 + c w_1 + ..., \\
+y_2 &= a u_2 + b v_2 + c w_2 + ...,
+\vdots & \\
+y_n &= a u_n + b v_n + c w_n + ...
+\end{cases}
+
+\end{equation}

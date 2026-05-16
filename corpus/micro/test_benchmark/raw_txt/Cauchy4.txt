@@ -1,0 +1,9 @@
+Alors, si l'on nomme $\mathcal{H}$ la valeur numérique de $X - x_0$,
+
+et $\mathcal{D}$ la plus grande valeur numérique que puisse recevoir
+
+la quantité         $ f(x \pm \theta \delta, y \pm \Omega A \delta) - f(x, y)$
+
+tandis que l'on fait varier $theta$ et $Omega$ entre les limites $0$, $1$, 
+
+$x$ et $x \pm \theta \delta$ entre les limites $x_0, x_0 + a$, enfin $y$ et $y \pm \Omega A \delta$,

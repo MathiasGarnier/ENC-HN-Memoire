@@ -1,0 +1,11 @@
+The same arguments give unicity up to isomorphism 
+
+of $\omega$, over $k$ : we get a maximal $\mathcal{T}_\alpha$ ($\alpha \in A$)
+
+over which we have an isomorphism, and extend further 
+
+if $\mathcal{T}_\alpha \neq \mathcal{T}$.
+
+Best
+
+P. Deligne

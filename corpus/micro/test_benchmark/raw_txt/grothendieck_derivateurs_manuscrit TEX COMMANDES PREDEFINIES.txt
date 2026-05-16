@@ -1,0 +1,9 @@
+\newcommand{\catA}{\mathcal{A}}
+\newcommand{\catI}{\mathcal{I}}
+\newcommand{\catJ}{\mathcal{J}}
+\newcommand{\catS}{\mathcal{S}}
+\newcommand{\catD}{\mathbb{D}}
+\newcommand{\Dia}{\text{Dia}}
+\newcommand{\Cat}{\text{Cat}}
+\newcommand{\Hom}{\text{Hom}}
+\newcommand{\Ob}{\text{Ob}}

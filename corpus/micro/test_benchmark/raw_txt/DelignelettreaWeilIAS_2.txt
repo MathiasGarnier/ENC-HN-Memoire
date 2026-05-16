@@ -1,0 +1,47 @@
+On pose 
+
+$$ Z_v(\sigma, T) = \det(1 - F_v T, \sigma_V^{I_v})^{-1}$$
+
+(action de Frobenius sur les invariants de l'inertie)
+
+\[ Z(\sigma, T) = \prod_v Z_v(\sigma, T) \quad \in E_\lambda[[T]] \]
+
+\medskip
+
+\noindent \underline{Exemple} \quad Une représentation $\lambda$-adique de rang 1 de $K$ n'est 
+
+autre qu'un homomorphisme du groupe des classes d'idèles de
+
+$K$ dans $\mathcal{O}_\lambda^*$, continue pour la topologie discrète de $\mathcal{O}_\lambda^*$. On désigne 
+
+par $1(n)$ la représentation correspondant à $\underline{x} \mapsto |x|^{-n}$ ($n \in \mathbb{Z}$) 
+
+et on pose $\sigma(n) = \sigma \otimes 1(n)$.
+
+\bigskip
+
+\begin{center}
+Un théorème de Grothendieck affirme que si $\sigma$ est une 
+
+représentation $\lambda$-adique de $K$, alors
+\end{center}
+
+\begin{itemize}
+    \item[a)] $Z(\sigma, T)$ est une fraction rationnelle (dans $E_\lambda(T)$)
+    
+    \item[b)] Elle vérifie une équation fonctionnelle
+    
+    \[ Z(\check{\sigma}(1), T) = \epsilon(\sigma, T) Z(\sigma, T) \]
+    
+    où $\epsilon(\sigma, T)$ est un monôme. Je poserai
+    
+    \[ \epsilon(\sigma, T) = q^{(1-g) \dim \sigma} \cdot \epsilon_0(\sigma, T) \]
+    
+    $\epsilon_0(\sigma) = \epsilon_0(\sigma, 1)$ \ ; \ cette quantité est une unité $\lambda$-adique.
+    
+    \item[c)] Si $\sigma$ désigne encore le faisceau $\lambda$-adique défini par $\sigma$ 
+    
+    (image directe de sa restriction au point générique), on a encore
+    
+    \[ \epsilon(\sigma, T) = \det(-FT, H^*(\sigma)) \underset{dfn}{=} \prod_i \det(-FT, H^i(\sigma))^{(-1)^i} \]
+\end{itemize}

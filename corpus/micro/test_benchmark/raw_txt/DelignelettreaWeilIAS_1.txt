@@ -1,0 +1,41 @@
+Bures sur Yvette, le 1er juillet 1969
+
+Cher monsieur Weil,
+
+Voici la détermination, dans le cas d'un corps de 
+
+fonctions, de la façon dont varie la constante de l'équation
+
+fonctionnelle dont nous avions parlé. Je joins une copie d'une 
+
+lettre de Langlands, et de quelques calculs qui s'y rapportent. Je 
+
+n'en utiliserai l'assertion (L) ci-plus bas.
+
+\underline{1. Représentations $\lambda$-adiques, d'après Serre et Grothendieck}
+
+Soient $K$ un corps de fonctions d'une variable de corps 
+
+des constantes $\mathbb{F}_1$, $X$ l'ensemble de ses places, $E$ un corps de 
+
+nombres, $\lambda$ une place de $E$ ne divisant pas $q$ et $E_\lambda$ le 
+
+corps local correspondant, d'anneau des entiers $O_\lambda$ et de corps résiduel 
+
+$k_\lambda = O_\lambda / \lambda$.
+
+Une représentation $\lambda$-adique $\sigma$ de $K$ est une représentation 
+
+continue de $\textnormal{Gal}(\overline{K}/K)$ dans un vectoriel de dimension finie sur $E_\lambda$,
+
+telle qu'il existe une partie finie $S$ de 
+
+$\lambda$ en dehors de laquelle $\sigma$ soit non ramifiée.
+
+Si $v \in X$, on désigne par $\phi_V$ une substitution de Frobenius
+
+correspondante, par $F_V = \varphi_V^{-1}$ un Frobenius géométrique, par $I_V$ le 
+
+groupe d'inertie du groupe de Galois local en $V$, par $\sigma_V$ la 
+
+représentation locale définie par $\sigma$.

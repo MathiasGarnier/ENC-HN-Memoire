@@ -1,0 +1,89 @@
+\begin{center}
+    \vspace*{1em}
+    {\LARGE \textbf{Dérivateurs}}
+    \vspace{2em}
+\end{center}
+
+\noindent 1. Préliminaires sur les foncteurs images inverses des préfaisceaux 
+
+sur des catégories d’indices, et leurs adjoints multiples.
+
+\medskip
+\noindent $A$ ``catégorie de coefficients'',\\
+
+$I$ ``catégorie d’indices'',\\
+
+$A(I) = \text{Hom}(I^\circ, A)$ préfaisceaux sur $I$ à valeurs dans $A$.
+
+\medskip
+\noindent Si $f : I \to J$, on en déduit :
+
+\[ f^* : A(J) \to A(I) \quad , \]
+
+et on s'intéresse à l'existence des foncteurs adjoints 
+
+successifs à gauche et à droite. Notation provisoire
+
+\[ f^? \ f_! \ f^* \ f_* \ f^! \quad . \]
+
+\noindent Voici les faits principaux :
+
+\smallskip
+
+\noindent \textit{a)} Sous réserve de l'existence des $\varinjlim$ (resp. $\varprojlim$) pertinentes, 
+
+$f_*$ (resp. $f_!$) existe. Par exemple s'il existe [des] $\varinjlim$ (resp. $\varprojlim$) 
+
+\underline{finies}, alors $f_*$ (resp. $f_!$) existe si $I, J$ sont des catégo
+
+ries finies.
+
+\smallskip
+\noindent \textit{b)} Même si $A$ est une catégorie abélienne, avec $\varinjlim$ et 
+
+$\varprojlim$, les \underline{biadjoints} n'existent pas toujours  dans 
+
+le cas particulier où $J = e$ est la catégorie ponctuelle, et 
+
+$I$ l'ensemble ordonné
+
+
+\begin{center}
+\begin{tikzcd}
+ & a \\
+0 \arrow[ru] \arrow[rd] & \\
+ & b
+\end{tikzcd}
+\end{center}
+
+(dans le cas de $f^!$), ou 
+
+l'ensemble ordonné opposé (dans le cas de $f^?$). Même si 
+
+$f$ est une immersion ouverte, $f^!$ n'existe 
+
+pas forcément (par ex. elle n'existe pas si $I$ est comme dessus, et
+
+\begin{center}
+\begin{tikzcd}
+ & a \arrow[rd] & \\
+J=0 \arrow[ru] \arrow[rd] & & c \\
+ & b \arrow[ru] & 
+\end{tikzcd}
+\quad ),
+\end{center}
+
+et si $f$ est une immersion fermée, $f^?$ 
+
+n'existe pas forcément.
+
+\smallskip
+\noindent \textit{c)} Si $f$ est une \underline{immersion fermée}, et $A$ est \underline{ponctuée} (i.e. admet 
+
+un objet à la fois initial et final), alors $f^!$ existe. Si 
+
+$f$ est une immersion ouverte, $f^?$ existe. (Toujours sous 
+
+réserve de l'existence dans $A$ des limites pertinentes). Si $f$ 
+
+est une immersion, $f_*$ et $f_!$ pleinement fidèles i.e. $f^*$ [est] un foncteur de localisation.

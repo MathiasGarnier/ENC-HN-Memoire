@@ -1,0 +1,21 @@
+$$ \wp_\Lambda(z) = \frac{1}{z^2} + \sum_{\substack{\omega \in \Lambda\\ \omega \neq 0}} \left[ \frac{1}{(z-\omega)^2} - \frac{1}{\omega^2} \right] $$
+
+fonction $\wp$ de Weierstrass
+
+Proposition.
+
+(1) $G_{2k}$ converge absolument pour tout entier $k > 1$ 
+
+
+(2) $\wp_\Lambda$ converge absolument et uniformément sur tout compact de $\mathbb{C} \setminus \Lambda$
+
+(3) $\wp_\Lambda$ est une fonction elliptique paire : 
+$$\wp_\Lambda(-z) = \wp_\Lambda(z)$$
+avec un pôle double avec résidu 0 sur tout élément de $\Lambda$ et pas d'autres pôles.
+
+Démonstration :
+
+(1)
+$$  \sum_{\substack{\omega \in \Lambda\\ \omega \neq 0}} \frac{1}{|\omega|^{2k}} = \sum_{0 < |\omega| < 1} \frac{1}{|\omega|^{2k}} + \sum_{|\omega| \geq 1} \frac{1}{|\omega|^{2k}}$$
+
+somme finie car $\Lambda$ est discret

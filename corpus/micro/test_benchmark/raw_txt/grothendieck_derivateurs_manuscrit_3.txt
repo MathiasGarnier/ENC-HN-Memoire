@@ -1,0 +1,53 @@
+\noindent Je me dispense d'écrire le carré cocartésien dual, 
+
+quand $A$ a les $\varinjlim$ pertinentes, y compris objet initial. 
+
+Il semble qu'elle n'ait pas servi en pratique Les 
+
+foncteurs adjoints et biadjoints classiquement utiles 
+
+sont inclus ci-dessous (où les ``pas utiles'' sont 
+
+entre crochets)
+
+\[ [i_!] \ i^* \ i_* \ i^! \]
+
+\[ [j^?] \ j_! \ j^* \ j_* \]
+
+i.e. les foncteurs $i_!$ et $j^?$ n'ont pas servi classiquement.
+
+\smallskip
+
+\noindent \textit{f)} Cas des catégories $\Delta_i$ (simplexes type, $i \in \mathbb{N}$),
+ 
+et des foncteurs entre ceux-ci (applications semi-simpli
+
+ciales). Il semblerait que pour une telle $f$, 
+
+si $A$ est ponctuée, il y ait les \textit{bi-adjoints} 
+
+à la fois à gauche et à droite. De plus, pour $\Delta_i$ et $\Delta_j$ fixés 
+
+quand on regarde toutes les $f : \Delta_i \to \Delta_j$ et toutes 
+
+les $g : \Delta_j \to \Delta_i$, que les suites totales de foncteurs 
+
+multi-adjoints pour chacun des $f^*, g^*$ correspondants sont 
+
+toutes les mêmes. Ça a l'air vrai du moins si 
+
+$j = i+1$ (et je l'ai vérifié pour $i=0, i=1$), on doit 
+
+trouver une ``suite d'adjonctions'' de longueur 
+
+$2i+7 = (i+1) + (i+2) + 2 + 2$. De façon précise, la suite comporte quatre 
+
+termes ``extrêmes'' (les deux premiers, les deux derniers) 
+
+et les $(i+1) + (i+2)$ termes intermédiaires correspondant 
+
+aux foncteurs de la forme $f^*$ ou $g^*$, où $f : \Delta_{i+1} \to \Delta_i$ est une 
+
+des $(i+1)$ applications de dégénérescence, et $g : \Delta_i \to \Delta_{i+1}$ 
+
+une des $i+2$ applications bord.

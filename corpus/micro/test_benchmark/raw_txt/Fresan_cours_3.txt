@@ -1,0 +1,11 @@
+Théorème. Soient $\Lambda \subseteq \mathbb{C}$ un réseau, $D \subseteq \mathbb{C}$ un domaine fondamental et $f \in \mathbb{C}(\Lambda)^\times$.
+
+(1) $$\sum_{X \in D} \text{res}_X(f) = 0$$
+(2) $$\sum_{X \in D} \text{ord}_X(f) = 0$$
+(3) $$\sum_{X \in D} \text{ord}_X(f) \cdot X \in \Lambda$$
+
+Démonstration:
+ces propriétés sont indépendantes du choix de $D$ car on peut les écrire sous la forme $\sum_{X \in \mathbb{C} / \Lambda} ...$ . Comme $\Lambda$ et l'ensemble des zéros et des pôles de $f$ sont discrets, on peut choisir $D$ de sorte que $f$ n'ait pas de pôles ni de zéros sur $\partial D$.
+
+(1) Par le théorème du résidu : 
+$$ \sum_{X \in D} \text{res}_X(f) = \frac{1}{2\pi i} \int_{\partial D} f(z) dz $$

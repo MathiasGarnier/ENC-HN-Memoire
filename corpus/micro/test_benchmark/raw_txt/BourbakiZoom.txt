@@ -1,0 +1,1 @@
+$$\begin{aligned}\mu(f) \nu(g) &= \int f(x) \, d\mu(x) \int g(yx) \, d\nu(y) = \int d\nu(y) \int f(x) g(yx) \, d\mu(x) \\ &= \int d\nu(y) \int f(y^{-1}x) g(x) \, d\mu(x) = \int g(x) \, d\mu(x) \int f(y^{-1}x) \, d\nu(y)\end{aligned}$$

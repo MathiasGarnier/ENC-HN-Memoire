@@ -1,0 +1,4 @@
+
+Satz 2.6.1. Es gilt
+
+$$\frac{\zeta'}{\zeta}(s) = \begin{cases} O(1) & \text{in } \operatorname{Re} s \geq 2, \\ O(\log |s|) & \text{in } \operatorname{Re} s \leq -1, |s + 2m| > \frac{1}{4} \\ & \text{für alle } m \in \mathbb{N}, \\ \sum_{\substack{\\rho \in \mathcal{N} \\ |\operatorname{Im}(s - \rho)| < 1}} \frac{1}{s - \rho} + O(1 + \log |s|) & \text{in } -1 \leq \operatorname{Re} s \leq 2, |\operatorname{Im} s| \geq 1. \end{cases}$$

@@ -1,0 +1,12 @@
+Definition 3.5. Let $M$ be a smooth manifold endowed with a connection $\nabla$. A curve
+
+$\gamma : [a, b] \to M$ is said to be autoparallel and is called a geodesic of $(M, \nabla)$ if it satisfies
+
+for all $t \in [a, b]$
+
+$$ \nabla_{\dot{\gamma}(t)} \dot{\gamma}(t) = 0.$$ (3.6)
+
+28
+
+
+X(t) \gamma(t)  \dot{\gamma}(t) M

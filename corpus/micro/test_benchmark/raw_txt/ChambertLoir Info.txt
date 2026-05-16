@@ -1,0 +1,5 @@
+$$\mathbf{P}(X = 1 \mid Y = 2)$$
+
+$$= \frac{\mathbf{P}(Y = 2 \mid X = 1)\mathbf{P}(X = 1)}{\mathbf{P}(Y = 2 \mid X = 1)\mathbf{P}(X = 1) + \mathbf{P}(Y = 2 \mid X = 2)\mathbf{P}(X = 2) + \mathbf{P}(Y = 2 \mid X = 3)\mathbf{P}(X = 3)}$$
+
+$$= \frac{\mathbf{P}(Y = 2 \mid X = 1)\mathbf{P}(X = 1)}{\mathbf{P}(Y = 2 \mid X = 1)\mathbf{P}(X = 1) + \mathbf{P}(X = 3)},$$

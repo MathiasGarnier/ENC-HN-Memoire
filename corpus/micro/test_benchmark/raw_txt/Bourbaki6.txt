@@ -1,0 +1,1 @@
+(24) $|f\mu(x)|^2 \leq ||\mu|| \int |(x, \hat{x})|^2 d\mu(\hat{x}) = ||\mu|| \int (x^* x, \hat{x}) d\mu(\hat{x}) = ||\mu|| f(x^* x)$

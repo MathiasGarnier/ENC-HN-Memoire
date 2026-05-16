@@ -1,0 +1,15 @@
+Définition 5.1. Soient $V$ un sous-ensemble de $\mathbf{R}^n$, $a \in V$, et $d$ un entier
+
+naturel. On dit que $V$ est lisse en $a$, de dimension $d$, s'il existe un
+
+difféomorphisme $F$ de classe $\textnormal{C}^1$ d'un voisinage ouvert $U$ de $a$ dans $\mathbb{R}^n$
+
+sur le voisinage ouvert $\textnormal{F}(U)$ de $0$ dans $\mathbb{R}^n$, qui transforme $V$ en un sous-
+
+espace vectorile de dimension $d$, i.e.
+
+$$ \textnormal{F}(\textnormal{V} \cap \textnormal{U}) = \textnormal{V}' \cap \textnormal{F}(\textnormal{U}) \textnormal{ avec } \textnormal{V}' = \mathbb{R}^d \times \{ 0 \} \subset \mathbb{R}^n .$$
+
+On dit que $V$ est une sous-variété de dimension $d$ de $\mathbb{R}^n$ si $V$ est lisse (de 
+
+dimension d) en chacun de ses points.

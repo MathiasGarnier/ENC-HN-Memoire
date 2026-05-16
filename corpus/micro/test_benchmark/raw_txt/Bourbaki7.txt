@@ -1,0 +1,5 @@
+$U_i^* A(S \otimes I) U_k = \sum_j U_i^* A U_j S U_j^* U_k = U_i^* A U_k S$
+
+et 
+
+$U_i^* (S \otimes I) AU_k = \sum_j U_i^* U_j S U_j^* AU_k = SU_i^* A U_k$

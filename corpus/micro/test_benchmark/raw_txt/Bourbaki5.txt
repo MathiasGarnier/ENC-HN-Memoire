@@ -1,0 +1,5 @@
+\begin{align*}
+\int_{V(\overline{M}) \geq 1} (V(\overline{M})^{1 - s} - V(\overline{M})^{-s} d \mu(\overline{M}) &= \int_{\overline{J_1}} \times \int_{S, V(\overline{M}) \geq 1} \\
+&= \mu(\overline{J_1}) \int_{t \geq 1} (t^{-1s} - t^{-s}) \frac{dt}{t} \\
+&= \mu(\overline{J_1})(\frac{1}{s-1} - \frac{1}{s}) .
+\end{align*}

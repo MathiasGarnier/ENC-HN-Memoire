@@ -1,0 +1,3 @@
+i.e. $i^! F$ s'identifie par le foncteur pl. fid $i_*$ au \underline{noyau} 
+
+de $F \to j_* j^* F$. Dans le cas abélien cela prend la forme d'une suite exacte

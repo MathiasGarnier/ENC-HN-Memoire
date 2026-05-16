@@ -1,0 +1,1 @@
+$$  2 i n\pi s \cdot \prod (s -1) \cdot \zeta(s) = (2 \pi)^s \sum n^{s-1} ((-i)^{s - 1} + i^{s - 1}),$$

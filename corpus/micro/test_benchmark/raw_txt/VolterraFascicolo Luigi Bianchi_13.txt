@@ -1,0 +1,18 @@
+\underline{con una funzione arbitraria} a due equazioni della 
+
+forma
+
+\[
+r = \varphi(s) \quad t = \psi(s)
+\]
+
+purché $\varphi'(s) \psi'(s) = 1$, il che permette di assegnare \\
+per ogni $eq\text{}^{ne}$ della detta forma un integrale con \\
+una $funz$ arbitraria. \\
+Rispetto al metodo che mi esponi nell'ultima tua \\
+per trovare gli integrali comuni a $n$ $eq\text{}^{ni}$ a de- \\
+rivate parziali d'ordine $n$ avrei bisogno di alcuni \\
+schiarimenti per intenderlo. Non vedo nel tuo modo \\
+di trattazione ove sia tenuto conto che le derivate \\
+parziali $r\text{}^{me}$ ($r = 2, 3, \dots n-1$) sono le derivate $1\text{}^{e}$ \\
+delle derivate $(r-1)\text{}^{me}$ e come questo possa poi risultare

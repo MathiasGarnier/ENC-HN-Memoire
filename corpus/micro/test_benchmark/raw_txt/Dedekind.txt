@@ -1,0 +1,17 @@
+Riemann Formel 1 : Mein Fall II. Richtig.
+
+Riemann Formel 2 : Mein Fall I.  $N = n$  ;  $q_0^n = -1$
+
+Reeller Theil bei Riemann
+
+$$\begin{aligned} &= -\frac{\pi^2}{4n^2} \cdot \frac{q+q_0}{q-q_0} - \frac{1}{n} \log \frac{1+q^n}{1-q^n} = -\frac{\pi^2}{4n^2} \cdot \frac{q+q_0}{q-q_0} - \frac{1}{n} \log \frac{-q_0^n+q^n}{-q_0^n-q^n} \\ &= -\frac{\pi^2}{4n^2} \cdot \frac{q+q_0}{q-q_0} - \frac{1}{n} \log \frac{q_0^n-q^n}{q_0^n+q^n} = -\frac{\pi^2}{4n^2} \cdot \frac{q+q_0}{q-q_0} + \frac{1}{n} \log \frac{q_0^n+q^n}{q_0^n-q^n} \\ &= +12A \text{ (stimmt)} + \frac{1}{n} \left( \log \frac{2}{\pi} - 2B \right) \text{ (stimmt nicht). Bei mir: } 12A - 2\log 2 \end{aligned}$$
+
+Riemann Formel 3 (Mein Fall III.  $N=2n$ ) ;  $q_0^{2n} = -1$
+
+$$\begin{aligned} \frac{q+q_0}{q-q_0} \cdot \frac{\pi^2}{16n^2} + \frac{1}{2n} \log \frac{q_0^{2n}-q^{2n}}{q_0^{2n}+q^{2n}} &= \frac{\pi^2}{4N^2} \left( -\frac{48N^2}{\pi^2} A \right) - \frac{1}{N} \left( \log \frac{2}{\pi} - 2B \right) \text{ stimmt nicht.} \\ \text{bei mir: } &= -12A + 2\log 2 \end{aligned}$$
+
+Riemann Formel 4 (Mein Fall III) stimmt .
+
+Riemann Formel 5 (Mein Fall I und II)
+
+$$(-1)^{m+1} \frac{\pi^2}{4N^2} \left( -\frac{48N^2}{\pi^2} A \right) = (-1)^m \cdot 12A \text{ $$(-1)^{m+1} \frac{\pi^2}{4N^2} \left(-\frac{48 N^2}{\pi^2} \mathcal{A}\right) = (-1)^m \cdot 12 \mathcal{A} \text{ stimmt; aber da logarithmisch unendl. und der reelle Theil fehlt}$$

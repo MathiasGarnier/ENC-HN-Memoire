@@ -1,0 +1,18 @@
+$$ = \frac{1}{2\pi i} \left( \int_a^{a+\omega_1} + \int_{a+\omega_1}^{a+\omega_1+\omega_2} + \int_{a+\omega_1+\omega_2}^{a+\omega_2} + \int_{a+\omega_2}^{a} \right) $$
+
+$$ = \frac{\omega_1}{2\pi i} \int_a^{a+\omega_2} \frac{f'(z)}{f(z)} dz - \frac{\omega_2}{2\pi i} \int_a^{a+\omega_1} \frac{f'(z)}{f(z)} dz $$
+
+Pour conclure, on utilise le fait que pour tout chemin fermé $\gamma$ sur $\mathbb{C}^\times$
+
+$\frac{1}{2\pi i} \int_\gamma \frac{dz}{z} \in \mathbb{Z}$.
+
+On l'applique au chemin 
+\begin{align*}
+\gamma : [0, 1] &\to \mathbb{C}^\times \\
+            t   &\mapsto f((1 - t)a + t(a + \omega_2))
+\end{align*}
+qui est bien défini car $f$ n'a pas de zéros sur $\partial D$ et fermé car $f(a) = f(a + \omega_2)$.
+
+Corollaire. Une fonction elliptique non constante a au moins 2 pôles (comptés avec multiplicité) sur $D$.
+
+Démonstration : S'il y avait un seul

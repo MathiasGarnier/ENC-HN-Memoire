@@ -1,0 +1,7 @@
+fonction 
+
+$$ e^{-x^2} + e^{- \frac{1}{x^2}}$$
+
+on obtiendra pour développement la série convergente
+
+$$ 1 - \frac{x^2}{1} + \frac{x^4}{1 \cdot 2} - \frac{x^6}{1 \cdot 2 \cdot 3} $$

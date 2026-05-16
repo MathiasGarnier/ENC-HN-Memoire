@@ -1,0 +1,11 @@
+pôle simple, (1) impliquerait que le résidu est 0, donc que la fonction est holomorphe, donc qu'elle est constante.
+
+Le quotient $E = \mathbb{C}/\Lambda$ est muni d'une structure de surface de Riemann. Une fonction elliptique $f : \mathbb{C} \to \mathbb{P}^1(\mathbb{C})$ définit par passage au quotient une fonction holomorphe $\tilde{f} : E \to \mathbb{P}^1(\mathbb{C})$. Dans ce langage, les énoncés (1) et (2) sont le théorème des résidus pour la forme différentielle méromorphe $f(z) dz$ sur la surface de Riemann compacte $E$ et le fait qu'une fonction non nulle a autant de pôles que de zéros.
+
+
+\section{LA FONCTION $\wp$ dE WEIERSTRASS}
+
+Soit $\Lambda \subseteq \mathbb{C}$ un réseau. On pose :
+$$ G_{2k}(\Lambda) = \sum_{\substack{\omega \in \Lambda\\ \omega \neq 0}} \frac{1}{\omega^{2k}} $$
+
+série d'Eisenstein de poids 2k

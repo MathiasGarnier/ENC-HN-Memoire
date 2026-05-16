@@ -1,0 +1,5 @@
+Soient $v$ une valuation de $K$ prolongeant $v'$, $v \circ s$ ($s \in G$) ses conjuguées et $w_i$
+les valuationsde $K$ prolongeant $v'$ et non équivalentes aux $v \circ s$. Il existe alor
+(§ 1,prop.6) $a \in K$ tel que $v(s(a)) = 0$ pour tout $s$ et que $w_i(a) > 0$ pour tout $i$ .
+On a alors $v'(N(a)) = v(\prod_{s \in G} s(a)) = 0$ , et $v'(N(a)) > 0$ d'après la formule (19) (§ 2
+n° 4) : contradiction .

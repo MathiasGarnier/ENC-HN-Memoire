@@ -1,0 +1,7 @@
+La méthode des moindres carrés
+
+me donne $y = 0.975 + 1.045 . x$
+
+et d'après votre méthode je
+
+trouve $y = 1.02 + x$

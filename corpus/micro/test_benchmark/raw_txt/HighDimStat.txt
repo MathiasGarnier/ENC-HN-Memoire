@@ -1,0 +1,5 @@
+4. Prove that for $\beta = 1/(8B^2)$
+
+$$
+\mathbb{E}\left[\frac{1}{T} \sum_{t = 1}^T \left( \hat{f}(t) - f(X_t) \right)^2 \right] \leq \min_{m \in \mathscr{M}} \left\{ \mathbb{E}\left[ \frac{1}{T} \sum_{t = 1}^T \left( \hat{f}_m(t) - f(X_t) \right)^2 \right] +  \frac{8 B^2}{T} \log \left( \frac{1}{\pi_m}\right) \right\}
+$$

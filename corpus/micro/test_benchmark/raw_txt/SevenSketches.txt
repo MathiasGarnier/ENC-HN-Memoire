@@ -1,0 +1,9 @@
+\textbf{Definition 2.79.} A symmetric monoidal preorder $\mathcal{V} = (V, \leq, I, \otimes)$ is called \textit{symmetric}
+
+\textit{monoidal closed} (or just \textit{closed}) if, for every two elements $v, w \in V$, there is an element
+
+$v \multimap w$ in $\mathcal{V}$, called the \textit{hom-element}, with the property
+
+$$ (a \otimes v) \leq w \quad \textnormal{if} \quad a \leq (v \multimap w).  (2.80)$$
+
+for all $a, v, w \in V$.

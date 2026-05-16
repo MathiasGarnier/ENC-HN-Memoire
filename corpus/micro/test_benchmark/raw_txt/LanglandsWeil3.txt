@@ -1,0 +1,19 @@
+By the way if the $z_i$, $1 \leq i \leq \ell$ are replaced by $z_i' = \mu_i Z_i$ with $\mu_i \in g_1$   12
+
+then $\rho_i^{'}(\sigma)  = \mu_{' \sigma^{-1}}^{-1} \rho_i(\sigma) \mu_i$ and 
+
+$$ \omega'(\sigma \times 1) = \left( \chi(\mu_1) \times dots \times \chi(\mu_\ell) \right)^{-1} \omega(\sigma \times 1) \left( \chi(\mu_1) \times dots \times \chi(\mu_\ell) \right)$$
+
+so the map does not depend in an essential way on the choice of coset 
+
+representations.
+
+I will take $\phi^{'}$ to be a constant. By the Artin reciprocity law there
+
+is associated to $\chi$ a character of $K_1^{*} \setminus I_{K_1}$, that is, an automorphic
+
+form $\phi$ on $G_{\mathbb{Q}}^\delta \setminus G_A^\delta$. I claim that $\phi$ is the automorphic
+
+form which provides an affirmative answer to the question
+
+r

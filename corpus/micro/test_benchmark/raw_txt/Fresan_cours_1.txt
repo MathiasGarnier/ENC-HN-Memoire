@@ -1,0 +1,12 @@
+\section*{1 FONCTIONS ELLIPTIQUES}
+
+\subsection*{Définition}
+
+Définition. Un réseau $\Lambda \subseteq \mathbb{C}$ est un sous-groupe discret qui contient une $\mathbb{R}$-base de $\mathbb{C}$. Il est donc de la forme
+$$ \Lambda = \mathbb{Z}\omega_1 \oplus \mathbb{Z}\omega_2, $$
+où $\omega_1$ et $\omega_2$ sont deux nombres complexes non nuls tels que $\frac{\omega_1}{\omega_2} \notin \mathbb{R}$.
+
+Définition. Un domaine fondamental pour un réseau $\Lambda \subseteq \mathbb{C}$ est un sous-ensemble de $\mathbb{C}$ de la forme :
+$$ D = \{ a + t_1\omega_1 + t_2\omega_2 \mid 0 \le t_1, t_2 < 1 \} $$
+pour $a \in \mathbb{C}$. Il contient un unique représentant de chaque point de $\mathbb{C}$ pour la relation d'équivalence 
+$$ z \sim z' \iff z - z' \in \Lambda $$

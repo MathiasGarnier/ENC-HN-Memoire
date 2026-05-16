@@ -1,0 +1,43 @@
+Same for fiber functors on the $\langle \mathcal{T}', \mathcal{T}^{''} \rangle = \bigcup \langle \mathcal{T}_\beta, \mathcal{T}^{''}\rangle$.
+
+The $\mathcal{T}_\beta \cap \mathcal{T}^{''}$ have a largest element : if 
+
+$\mathcal{T}^{''} = \textnormal{Rep}(G^{''})$, they correspond to invariant subgroups of 
+
+$G^{''}$, subgroups are closed subschemes, and one uses 
+
+the noetherian property. If $\beta_0$ is such that $\mathcal{T}_{\beta_0} \cap \mathcal{T}^{''}$
+
+is the largest $\mathcal{T}_{\beta} \cap \mathcal{T}^{''}$, for any $\beta > \beta_0$, extending 
+
+$\omega_\beta = \omega | \mathcal{T}_\beta$ to $\langle \mathcal{T}_\beta, \mathcal{T}^{''} \rangle$ amounts to extending 
+
+$\omega_\beta | \mathcal{T}_\beta \cap \mathcal{T}^{''}$ to $\mathcal{T}^{''}$ (lemma 2), that is 
+
+to extend $\omega_{\beta_0}$ from $\mathcal{T}_{\beta_0} \cap \mathcal{T}^{''}$ to $\mathcal{T}^{''}$. If we choose 
+
+one such extension, we get up to \underline{unique} isomorphism 
+
+a system of extensions of the $\omega_\beta$ to $\langle \mathcal{T}_\beta, \mathcal{T}^{''} \rangle$,
+
+and by gluing them an extension of $\omega$ to $\langle \mathcal{T}', \mathcal{T}^{''} \rangle$.
+
+This is all we need to conclude that $\mathcal{T}' = \mathcal{T}$.
+
+The proof should be cleaned up. After all, we
+
+are proving that some projective system of gerbs
+
+(of the fiber functors on the $\mathcal{T}_\alpha$, $\alpha \in A_f$), where "projective 
+
+system" is taken in a $2$-categorical sense, has a 
+
+non empty projective limit (again limit in a $2$-categorical 
+
+sense). May be such a translation would make the
+
+"compacity arguments" used cleaner. There were two of them :
+
+"fiber functor is a property of finity type  (cf Bourb. Ens 
+
+Ch 3 § 4.5 )", and the noetherian property for subgroups.

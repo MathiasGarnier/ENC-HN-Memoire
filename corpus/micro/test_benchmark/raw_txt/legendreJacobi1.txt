@@ -1,0 +1,5 @@
+\begin{align*}
+    Y &= 2(x-r)(x-r^4)(x-r^9) \dots \left[ x - r^{\left( \frac{n - 1}{2} \right)^2}\right] \\
+      &= 2x^{\left( \frac{n-1}{2}\right)} + a_1 x^{\left( \frac{n-3}{2}\right)} + a_2 ^{\left( \frac{1 - 5}{2}\right)} + \dots ($\textnormal{}^{1}$), 
+ 
+\end{align*}

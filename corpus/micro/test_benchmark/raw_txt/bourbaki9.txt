@@ -1,0 +1,8 @@
+Supposons maintenant $f$ absolument sommable. Quel que soit $\varepsilon > 0$,
+on peut trouver une fonction étagée $g \leq f$ telle que $\int (f - g) | \mu < \varepsilon$ ;
+soit $b < + \infty$ le maximum de $g$. Pour tout ensemble A de $\mathscr{T}$ tel
+que $\mu_A < \frac{\varepsilon}{b}$, on a 
+\begin{equation}
+    \int_A f | \mu = \int_A g | \mu + \int_A (f - g) | \mu \leq b. \mu_A + \int (f - g) | \mu < 2 \varepsilon
+\end{equation}
+d'où la proposition

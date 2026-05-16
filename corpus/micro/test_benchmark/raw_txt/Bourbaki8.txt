@@ -1,0 +1,3 @@
+(7) $ \int_{\bigcup_{n = 1}^{\infty} A_n} f | \mu = \lim_{n \to \infty} \int_{A_n} f | \mu$
+
+séquence de la relation. $\varphi \bigcup_{n = 1}^{\infty} A_n = \lim_{n \to \infty} \uparrow \varphi_{A_n}$

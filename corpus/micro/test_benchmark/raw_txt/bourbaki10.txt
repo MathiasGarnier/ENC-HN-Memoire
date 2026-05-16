@@ -1,0 +1,4 @@
+points $a_1, a_2, ..., a_n$ situés chacun sur un des demi-axes de
+coordonnées : l'ensemble convexe transformé contient alors l'in-
+tervalle $\prod_{i = 1}^n [0, a_1 / n]$ , donc contient un point intérieur, et
+il en est par suite de même de l'ensemble initial. De cette

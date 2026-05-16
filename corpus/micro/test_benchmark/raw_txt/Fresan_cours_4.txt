@@ -1,0 +1,18 @@
+$$ = \frac{1}{2\pi i} \left( \int_a^{a+\omega_1} f(z)dz + \int_{a+\omega_1}^{a+\omega_1+\omega_2} f(z)dz + \int_{a+\omega_1+\omega_2}^{a+\omega_2} f(z)dz + \int_{a+\omega_2}^{a} f(z)dz \right) = 0 $$
+$$ \text{car } \int_{a+\omega_1+\omega_2}^{a+\omega_2} f(z)dz = - \int_a^{a+\omega_1} f(z + \omega_2)dz = - \int_a^{a+\omega_1} f(z )dz $$
+
+périodicité
+
+et de même pour les deux autres termes.
+
+(2) Si $f$ est elliptique, alors $\frac{f'}{f}$ est elliptique aussi, avec
+$$ \text{res}_X\left(\frac{f'}{f}\right) = \text{ord}_X(f), $$
+donc le résultat découle de (1).
+
+(3) Par le théorème du résidu,
+$$ \sum_{X \in D} \text{ord}_X(f) \cdot X = \sum_{X \in D} \text{res}_X \left( z \cdot \frac{f'}{f} \right)$$
+
+cette fonction n'est pas elliptique
+
+$$= \frac{1}{2\pi i} \int_{\partial D} z \frac{f'(z)}{f(z)} dz $$
+

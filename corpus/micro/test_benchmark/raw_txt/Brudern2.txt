@@ -1,0 +1,13 @@
+
+
+Beweis. In  $\operatorname{Re} s \geq 2$  hat man wegen (1.45)
+
+$$\left| \frac{\zeta'}{\zeta}(s) \right| \leq \sum_{n=1}^{\infty} (\log n) n^{-2}.$$
+
+In  $\operatorname{Re} s \leq -1$  benutzen wir die Funktionalgleichung für  $\zeta$  in der Form
+
+$$\zeta(1-s) = 2^{1-s} \pi^{-s} \left( \cos \frac{\pi s}{2} \right) \Gamma(s) \zeta(s), \quad (2.47)$$
+
+die aus Satz 2.2.1 und (2.11) folgt. Durch logarithmisches Differenzieren kommt
+
+$$-\frac{\zeta'}{\zeta}(1-s) = -\log 2\pi - \frac{\pi}{2} \tan \frac{\pi s}{2} + \frac{\Gamma'}{\Gamma}(s) + \frac{\zeta'}{\zeta}(s).$$

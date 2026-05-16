@@ -1,0 +1,7 @@
+\begin{equation}
+\begin{aligned}
+- \sum_{\chi \neq \chi_0} \bar{\chi}(a) \psi(x, &\chi) \\
+= \bar{\chi}_1(a) \frac{x^\beta}{\beta} &+ \sum_{\substack{\rho \in \mathcal{N}(\chi_1) \\ |\text{Im } \rho| < T \\ \rho \neq \beta, 1-\beta}} \bar{\chi}_1(a) \frac{x^\rho}{\rho} + \sum_{\chi \neq \chi_0, \chi_1} \bar{\chi}(a) \sum_{\substack{\rho \in \mathcal{N}(\chi) \\ |\text{Im } \rho| < T}} \frac{x^\rho}{\rho} + R
+\end{aligned}
+\tag{3.20}
+\end{equation}

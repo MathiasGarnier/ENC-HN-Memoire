@@ -1,0 +1,15 @@
+et on déduit le résultat en utilisant l'argument de la partie (1)
+
+(3) La propriété $\wp_\Lambda(-z) = \wp_\Lambda(z)$ est évidente à partir de la définition (en changeant $\omega \in \Lambda$ en $-\omega \in \Lambda$).
+
+En dérivant,
+$$ \wp'_\Lambda(z) = -2 \sum_{\omega \in \Lambda} \frac{1}{(z-\omega)^3} $$
+
+convergence uniforme
+
+on trouve une fonction elliptique. En intégrant $\wp'_\Lambda(z+\omega) = \wp'_\Lambda(z)$, on trouve
+$$ \wp_\Lambda(z+\omega) = \wp_\Lambda(z) + C(\omega) $$
+
+constante indépen-dante de $z$.
+ 
+En évaluant en $z = -\frac{\omega_1}{2}$ et $z = -\frac{\omega_2}{2}$, qui ne sont pas des pôles de $\wp_\Lambda$, on trouve $C(\omega) = 0$ pour tout $\omega \in \Lambda$.

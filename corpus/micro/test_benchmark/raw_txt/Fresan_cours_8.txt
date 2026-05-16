@@ -1,0 +1,20 @@
+\begin{align*}
+    \sum_{\substack{\omega \in \Lambda\\|\omega| \geq 1}} \frac{1}{|\omega|^{2k}} &\leq \sum_{N = 1}^\infty \frac{| \{ \omega \in \Lambda | N \leq |\omega| < N + 1 \} |}{N^{2k}} \\
+    &\leq \sum_{N = 1}^\infty \frac{C}{N^{2k - 1}} < \infty
+\end{align*}
+
+k > 1
+
+car  $|\{ \omega \in \Lambda \mid N \le |\omega| < N+1 \}| \le C \cdot N $ pour une constante $C$ indépendante de N.
+
+(2) Pour $z \in \mathbb{C}$, on écrit
+$$ \wp_\Lambda(z) = \frac{1}{z^2} + \sum_{\substack{\omega \in \Lambda \setminus \{ 0 \}\\ |\omega| \leq |2z|}} \left[ \frac{1}{(z-\omega)^2} - \frac{1}{\omega^2} \right] +  \sum_{\substack{\omega \in \Lambda \setminus \{ 0 \}\\ |\omega| > |2z|}} ....$$
+
+ somme finie de fonctions holomorphes sur $\mathbf{C} \setminus \Lambda$
+
+Si $|\omega| > |2z|$, alors
+$$ \left| \frac{1}{(z-\omega)^2} - \frac{1}{\omega^2} \right| = \left| \frac{z(2\omega - z)}{\omega^2(z-\omega)^2} \right| \leq 10 \frac{|z|}{|\omega|^3}$$
+
+$|z - \omega| \geq \frac{|\omega|}{2}$
+
+$|2\omega - z| \leq \frac{5}{2} |\omega|$
